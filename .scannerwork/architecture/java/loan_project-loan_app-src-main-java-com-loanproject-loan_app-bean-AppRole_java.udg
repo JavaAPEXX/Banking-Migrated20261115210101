@@ -1,0 +1,318 @@
+
+1.0	java-apexJavaFrontend*java2.B®
+S
+Nloan_project/loan_app/src/main/java/com/loanproject/loan_app/bean/AppRole.java2
+	
+type3
+	
+MAIN4
+
+package6
+"
+com.loanproject.loan_app.bean7
+*
+%com.loanproject.loan_app.bean.AppRole9
+
+
+enum10
+
+access11
+
+public12
+
+
+full-range13
+
+(3:1)-(19:2)14
+
+simple-name15
+
+AppRole16
+\
+Vcom.loanproject.loan_app.bean.AppRole#values()[Lcom/loanproject/loan_app/bean/AppRole;18
+
+method19
+
+values20
+n
+hcom.loanproject.loan_app.bean.AppRole#valueOf(Ljava/lang/String;)Lcom/loanproject/loan_app/bean/AppRole;22
+
+valueOf23
+9
+3com.loanproject.loan_app.bean.AppRole.ROLE_CUSTOMER25
+
+field26
+
+(4:5)-(4:31)27
+
+ROLE_CUSTOMER28
+=
+7com.loanproject.loan_app.bean.AppRole.ROLE_LOAN_OFFICER30
+
+(5:5)-(5:39)31
+
+ROLE_LOAN_OFFICER32
+B
+<com.loanproject.loan_app.bean.AppRole.ROLE_COLLECTIONS_AGENT34
+
+(6:5)-(6:49)35
+
+ROLE_COLLECTIONS_AGENT36
+D
+>com.loanproject.loan_app.bean.AppRole.ROLE_COLLECTIONS_MANAGER38
+
+(7:5)-(7:53)39
+
+ROLE_COLLECTIONS_MANAGER40
+6
+0com.loanproject.loan_app.bean.AppRole.ROLE_ADMIN42
+
+(8:5)-(8:33)43
+
+
+ROLE_ADMIN44
+7
+1com.loanproject.loan_app.bean.AppRole.displayName46
+
+private47
+
+(10:5)-(10:38)48
+
+displayName49
+
+java.lang.String51
+
+unknown52
+
+is type53
+
+
+uses54
+Z
+Tcom.loanproject.loan_app.bean.AppRole#<init>(Ljava/lang/String;ILjava/lang/String;)V56
+
+(12:5)-(14:6)57
+
+	has param58
+
+
+references59
+N
+Hcom.loanproject.loan_app.bean.AppRole#getDisplayName()Ljava/lang/String;61
+
+(16:5)-(18:6)62
+
+getDisplayName63
+
+returns64J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jŸ
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+A
+17;
+171819 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+20
+A
+21;
+212219 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+23
+A
+24;
+242526 *
+1 (28:5B
+
+
+13
+27
+
+
+15
+28
+A
+29;
+293026 *
+1 (28:5B
+
+
+13
+31
+
+
+15
+32
+A
+33;
+333426 *
+1 (28:5B
+
+
+13
+35
+
+
+15
+36
+A
+37;
+373826 *
+1 (28:5B
+
+
+13
+39
+
+
+15
+40
+A
+41;
+414226 *
+1 (28:5B
+
+
+13
+43
+
+
+15
+44
+M
+45G
+454626 *
+1
+ 
+(%28:5B$
+
+
+11
+47
+
+
+13
+48
+
+
+15
+49
+
+50
+505152
+M
+55G
+555619 *
+1 (28:5B$
+
+
+11
+47
+
+
+13
+57
+
+
+15
+16
+M
+60G
+606119 *
+1 (!28:5B$
+
+
+11
+12
+
+
+13
+62
+
+
+15
+63rø
+
+455053*
+1
+ 
+(
+
+455054*
+1
+ 
+(
+
+455054*
+1
+ 
+(%
+
+555058*
+1 (
+
+555053*
+1 (
+
+555054*
+1 (
+
+55854*
+1	 (
+
+55859*
+1	 (
+
+555054*
+1 (
+
+554559*
+1 (
+
+605064*
+1 (
+
+605054*
+1 (
+
+605054*
+1 (
+
+604559*
+1 (

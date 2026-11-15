@@ -1,0 +1,12 @@
+–
+Mcom.loanproject.loan_app.security.TotpMfaProvider#getType()Ljava/lang/String;d
+Zloan_project\loan_app\src\main\java\com\loanproject\loan_app\security\TotpMfaProvider.java ("1*#
+1 ("
+ (
+TOTPB53
+1com.loanproject.loan_app.security.TotpMfaProviderH‡
+@com.loanproject.loan_app.security.TotpMfaProvider#isAvailable()Zd
+Zloan_project\loan_app\src\main\java\com\loanproject\loan_app\security\TotpMfaProvider.java ("1*
+1 ("
+ (2B53
+1com.loanproject.loan_app.security.TotpMfaProviderHX

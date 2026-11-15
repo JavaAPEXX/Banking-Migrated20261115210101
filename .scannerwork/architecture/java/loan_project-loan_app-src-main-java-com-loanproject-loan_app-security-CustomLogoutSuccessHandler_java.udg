@@ -1,0 +1,301 @@
+
+1.0	java-apexJavaFrontend*java2.Bù
+
+j
+eloan_project/loan_app/src/main/java/com/loanproject/loan_app/security/CustomLogoutSuccessHandler.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+A
+<com.loanproject.loan_app.security.CustomLogoutSuccessHandler9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(13:1)-(31:2)14
+
+simple-name15
+ 
+CustomLogoutSuccessHandler16
+2
+,Recovered#typeBindingLLogoutSuccessHandler;018
+
+unknown19
+
+
+implements20
+
+	Component22
+
+annotated by23
+'
+!Recovered#typeBindingLComponent;025
+
+
+uses26
+O
+Icom.loanproject.loan_app.security.CustomLogoutSuccessHandler.auditService28
+
+field29
+
+private30
+
+(16:5)-(16:49)31
+
+auditService32
+
+AuthAuditService34
+
+is type35
+^
+Xcom.loanproject.loan_app.security.CustomLogoutSuccessHandler#<init>(LAuthAuditService;)V37
+
+method38
+
+(18:5)-(20:6)39
+.
+(Recovered#typeBindingLAuthAuditService;041
+
+	has param42
+
+
+references43
+
+ˆcom.loanproject.loan_app.security.CustomLogoutSuccessHandler#onLogoutSuccess(LHttpServletRequest;LHttpServletResponse;LAuthentication;)V45
+
+(22:5)-(30:6)46
+
+onLogoutSuccess47
+
+java.lang.Override48
+0
+*Recovered#typeBindingLHttpServletRequest;050
+1
++Recovered#typeBindingLHttpServletResponse;052
+,
+&Recovered#typeBindingLAuthentication;054
+
+java.io.IOException57
+
+ServletException59
+
+java.lang.String61J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j®
+G
+8B
+8910 *
+1 ((:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+M
+27G
+272829 *
+1$ (028:5B$
+
+
+11
+30
+
+
+13
+31
+
+
+15
+32
+
+33
+333419
+M
+36G
+363738 *
+1 (&28:5B$
+
+
+11
+12
+
+
+13
+39
+
+
+15
+16
+
+40
+404119
+U
+44O
+444538 *
+1 ( 28:5B$
+
+
+11
+12
+
+
+13
+46
+
+
+15
+47R
+
+48
+
+49
+495019
+
+51
+515219
+
+53
+535419
+
+55
+554819
+
+56
+565719
+
+58
+585919
+
+60
+606119rÚ
+
+81720*
+14 (H
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+14 (H
+
+273335*
+1 (#
+
+273326*
+1 (#
+
+273326*
+1$ (0
+
+364042*
+1' (7
+
+364035*
+18 (D
+
+364026*
+1' (7
+
+36826*
+1	 (
+
+36843*
+1	 (
+
+363326*
+1 (
+
+362743*
+1 (
+
+444942*
+1! (3
+
+445142*
+1! (4
+
+445342*
+1! (/
+
+445523*
+1 (
+
+445526*
+1 (
+
+444935*
+14 (;
+
+444926*
+1! (3
+
+445135*
+15 (=
+
+445126*
+1! (4
+
+445335*
+10 (>
+
+445326*
+1! (/
+
+445626*
+1G (R
+
+445826*
+1T (d
+
+446035*
+1 (
+
+446026*
+1	 (
+
+442743*
+1	 (
+
+443326*
+1	 (
+
+442743*
+1	 (

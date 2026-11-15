@@ -1,0 +1,142 @@
+
+1.0	java-apexJavaFrontend*java2.BÊ
+Y
+Tloan_project/loan_app/src/main/java/com/loanproject/loan_app/LoanAppApplication.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+com.loanproject.loan_app7
+0
++com.loanproject.loan_app.LoanAppApplication9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(8:1)-(18:2)14
+
+simple-name15
+
+LoanAppApplication16
+
+SpringBootApplication18
+
+unknown19
+
+annotated by20
+3
+-Recovered#typeBindingLSpringBootApplication;022
+
+
+uses23
+
+EnableScheduling25
+.
+(Recovered#typeBindingLEnableScheduling;027
+L
+Fcom.loanproject.loan_app.LoanAppApplication#main([Ljava/lang/String;)V29
+
+method30
+
+(12:2)-(16:3)31
+
+
+main32
+
+java.lang.String34
+
+	has param35
+
+is type36J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jü
+G
+8B
+8910 *
+1
+ 
+( :5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+26
+262719
+M
+28G
+282930 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+31
+
+
+15
+32
+
+33
+333419rÓ
+
+81720*
+1 (
+
+82123*
+1 (
+
+82420*
+1	 	(
+
+82623*
+1	 	(
+
+283335*
+1 ("
+
+283336*
+1# ('
+
+283323*
+1 ( 
+
+28823*
+1 (+

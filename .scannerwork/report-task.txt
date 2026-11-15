@@ -1,0 +1,6 @@
+organization=priyanka-ravi-st
+projectKey=java-apex
+serverUrl=https://sonarcloud.io
+dashboardUrl=https://sonarcloud.io/dashboard?id=java-apex
+ceTaskId=AaHgCbTJXdkJaFulYP66
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AaHgCbTJXdkJaFulYP66

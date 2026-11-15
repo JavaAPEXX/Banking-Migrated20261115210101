@@ -1,0 +1,378 @@
+
+1.0	java-apexJavaFrontend*java2.B‰
+n
+iloan_project/loan_app/src/main/java/com/loanproject/loan_app/repository/PaymentTransactionRepository.java2
+	
+type3
+	
+MAIN4
+
+package6
+(
+#com.loanproject.loan_app.repository7
+E
+@com.loanproject.loan_app.repository.PaymentTransactionRepository9
+
+	interface10
+
+access11
+
+public12
+
+
+full-range13
+
+(11:1)-(25:2)14
+
+simple-name15
+"
+PaymentTransactionRepository16
++
+%Recovered#typeBindingLJpaRepository;018
+
+unknown19
+
+
+implements20
+
+
+Repository22
+
+annotated by23
+(
+"Recovered#typeBindingLRepository;025
+
+
+uses26
+0
+*Recovered#typeBindingLPaymentTransaction;028
+
+java.lang.Long30
+ž
+—com.loanproject.loan_app.repository.PaymentTransactionRepository#findByLoanOrderByPaymentDateDesc(Lcom/loanproject/loan_app/bean/Loan;)Ljava/util/List;32
+
+method33
+
+(14:5)-(14:74)34
+&
+ findByLoanOrderByPaymentDateDesc35
+
+java.util.List37
+
+returns38
+(
+"com.loanproject.loan_app.bean.Loan40
+
+	has param41
+
+is type42
+‘
+Šcom.loanproject.loan_app.repository.PaymentTransactionRepository#findByLoan_LoanIdOrderByPaymentDateDesc(Ljava/lang/Long;)Ljava/util/List;44
+
+(16:5)-(16:83)45
+-
+'findByLoan_LoanIdOrderByPaymentDateDesc46
+Œ
+…com.loanproject.loan_app.repository.PaymentTransactionRepository#findByLoanInOrderByPaymentDateDesc(Ljava/util/List;)Ljava/util/List;48
+
+(18:5)-(18:83)49
+(
+"findByLoanInOrderByPaymentDateDesc50
+
+‰com.loanproject.loan_app.repository.PaymentTransactionRepository#findTop5ByLoanInOrderByPaymentDateDesc(Ljava/util/List;)Ljava/util/List;52
+
+(20:5)-(20:87)53
+,
+&findTop5ByLoanInOrderByPaymentDateDesc54
+Š
+ƒcom.loanproject.loan_app.repository.PaymentTransactionRepository#findByTransactionReference(Ljava/lang/String;)Ljava/util/Optional;56
+
+(22:5)-(22:100)57
+ 
+findByTransactionReference58
+
+java.util.Optional60
+
+java.lang.String62
+x
+rcom.loanproject.loan_app.repository.PaymentTransactionRepository#existsByTransactionReference(Ljava/lang/String;)Z64
+
+(24:5)-(24:71)65
+"
+existsByTransactionReference66J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j×
+G
+8B
+8910 *
+1 (.:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+27
+272819
+
+29
+293019
+M
+31G
+313233 *
+1 (>28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35
+
+36
+363719
+
+39
+394019
+M
+43G
+434433 *
+1 (E28:5B$
+
+
+11
+12
+
+
+13
+45
+
+
+15
+46
+M
+47G
+474833 *
+1 (@28:5B$
+
+
+11
+12
+
+
+13
+49
+
+
+15
+50
+M
+51G
+515233 *
+1 (D28:5B$
+
+
+11
+12
+
+
+13
+53
+
+
+15
+54
+M
+55G
+555633 *
+1, (F28:5B$
+
+
+11
+12
+
+
+13
+57
+
+
+15
+58
+
+59
+596019
+
+61
+616219
+M
+63G
+636433 *
+1 ()28:5B$
+
+
+11
+12
+
+
+13
+65
+
+
+15
+66rÍ
+
+81720*
+17 (^
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+17 (D
+
+82726*
+1E (W
+
+82926*
+1Y (]
+
+313638*
+1 (
+
+313941*
+1? (C
+
+313626*
+1 (	
+
+312726*
+1
+ (
+
+313942*
+1D (H
+
+313926*
+1? (C
+
+433638*
+1 (
+
+432941*
+1F (J
+
+433626*
+1 (	
+
+432726*
+1
+ (
+
+432942*
+1K (Q
+
+432926*
+1F (J
+
+473638*
+1 (
+
+473641*
+1A (K
+
+473626*
+1 (	
+
+472726*
+1
+ (
+
+473642*
+1L (Q
+
+473626*
+1A (E
+
+473926*
+1F (J
+
+513638*
+1 (
+
+513641*
+1E (O
+
+513626*
+1 (	
+
+512726*
+1
+ (
+
+513642*
+1P (U
+
+513626*
+1E (I
+
+513926*
+1J (N
+
+555938*
+1 (+
+
+556141*
+1G (M
+
+555926*
+1 (
+
+552726*
+1 (*
+
+556142*
+1N (b
+
+556126*
+1G (M
+
+636141*
+1* (0
+
+636142*
+11 (E
+
+636126*
+1* (0

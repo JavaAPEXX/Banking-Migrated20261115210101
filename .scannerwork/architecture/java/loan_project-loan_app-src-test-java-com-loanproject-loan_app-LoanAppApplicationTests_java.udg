@@ -1,0 +1,125 @@
+
+1.0	java-apexJavaFrontend*java2.B€
+^
+Yloan_project/loan_app/src/test/java/com/loanproject/loan_app/LoanAppApplicationTests.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+com.loanproject.loan_app7
+5
+0com.loanproject.loan_app.LoanAppApplicationTests9
+
+class10
+
+access11
+
+	protected12
+
+
+full-range13
+
+(7:1)-(15:2)14
+
+simple-name15
+
+LoanAppApplicationTests16
+
+SpringBootTest18
+
+unknown19
+
+annotated by20
+,
+&Recovered#typeBindingLSpringBootTest;022
+
+
+uses23
+F
+@com.loanproject.loan_app.LoanAppApplicationTests#contextLoads()V25
+
+method26
+
+(10:5)-(14:6)27
+
+contextLoads28
+
+
+Test30
+"
+Recovered#typeBindingLTest;032J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jè
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+M
+24G
+242526 *
+1
+ (28:5B$
+
+
+11
+12
+
+
+13
+27
+
+
+15
+28
+
+29
+293019
+
+31
+313219rj
+
+81720*
+1 (
+
+82123*
+1 (
+
+242920*
+1
+ 
+(
+
+
+243123*
+1
+ 
+(

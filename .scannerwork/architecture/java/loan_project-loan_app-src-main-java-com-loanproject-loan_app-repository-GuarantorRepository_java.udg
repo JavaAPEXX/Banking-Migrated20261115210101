@@ -1,0 +1,210 @@
+
+1.0	java-apexJavaFrontend*java2.BÅ
+e
+`loan_project/loan_app/src/main/java/com/loanproject/loan_app/repository/GuarantorRepository.java2
+	
+type3
+	
+MAIN4
+
+package6
+(
+#com.loanproject.loan_app.repository7
+<
+7com.loanproject.loan_app.repository.GuarantorRepository9
+
+	interface10
+
+access11
+
+public12
+
+
+full-range13
+
+(11:1)-(17:2)14
+
+simple-name15
+
+GuarantorRepository16
++
+%Recovered#typeBindingLJpaRepository;018
+
+unknown19
+
+
+implements20
+
+
+Repository22
+
+annotated by23
+(
+"Recovered#typeBindingLRepository;025
+
+
+uses26
+'
+!Recovered#typeBindingLGuarantor;028
+
+java.lang.Long30
+`
+Zcom.loanproject.loan_app.repository.GuarantorRepository#findByLoan(LLoan;)Ljava/util/List;32
+
+method33
+
+(14:5)-(14:43)34
+
+
+findByLoan35
+
+java.util.List37
+
+returns38
+"
+Recovered#typeBindingLLoan;040
+
+	has param41
+
+is type42
+q
+kcom.loanproject.loan_app.repository.GuarantorRepository#findByLoan_LoanId(Ljava/lang/Long;)Ljava/util/List;44
+
+(16:5)-(16:52)45
+
+findByLoan_LoanId46J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÛ
+G
+8B
+8910 *
+1 (%:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+27
+272819
+
+29
+293019
+M
+31G
+313233 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35
+
+36
+363719
+
+39
+394019
+M
+43G
+434433 *
+1 (&28:5B$
+
+
+11
+12
+
+
+13
+45
+
+
+15
+46r‡
+
+81720*
+1. (L
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+1. (;
+
+82726*
+1< (E
+
+82926*
+1G (K
+
+313638*
+1 (
+
+313941*
+1  ($
+
+313626*
+1 (	
+
+312726*
+1
+ (
+
+313942*
+1% ()
+
+313926*
+1  ($
+
+433638*
+1 (
+
+432941*
+1' (+
+
+433626*
+1 (	
+
+432726*
+1
+ (
+
+432942*
+1, (2
+
+432926*
+1' (+

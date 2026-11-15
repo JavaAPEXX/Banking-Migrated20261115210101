@@ -1,0 +1,254 @@
+
+1.0	java-apexJavaFrontend*java2.Bã	
+i
+dloan_project/loan_app/src/main/java/com/loanproject/loan_app/repository/LinkedAccountRepository.java2
+	
+type3
+	
+MAIN4
+
+package6
+(
+#com.loanproject.loan_app.repository7
+@
+;com.loanproject.loan_app.repository.LinkedAccountRepository9
+
+	interface10
+
+access11
+
+public12
+
+
+full-range13
+
+(12:1)-(20:2)14
+
+simple-name15
+
+LinkedAccountRepository16
++
+%Recovered#typeBindingLJpaRepository;018
+
+unknown19
+
+
+implements20
+
+
+Repository22
+
+annotated by23
+(
+"Recovered#typeBindingLRepository;025
+
+
+uses26
+1
++com.loanproject.loan_app.bean.LinkedAccount28
+
+java.lang.Long30
+d
+^com.loanproject.loan_app.repository.LinkedAccountRepository#findByLoan(LLoan;)Ljava/util/List;32
+
+method33
+
+(15:5)-(15:47)34
+
+
+findByLoan35
+
+java.util.List37
+
+returns38
+"
+Recovered#typeBindingLLoan;040
+
+	has param41
+
+is type42
+m
+gcom.loanproject.loan_app.repository.LinkedAccountRepository#findFirstByLoan(LLoan;)Ljava/util/Optional;44
+
+(17:5)-(17:56)45
+
+findFirstByLoan46
+
+java.util.Optional48
+~
+xcom.loanproject.loan_app.repository.LinkedAccountRepository#findFirstByLoan_LoanId(Ljava/lang/Long;)Ljava/util/Optional;50
+
+(19:5)-(19:65)51
+
+findFirstByLoan_LoanId52J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÖ
+G
+8B
+8910 *
+1 ():5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+27
+272819
+
+29
+293019
+M
+31G
+313233 *
+1 (#28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35
+
+36
+363719
+
+39
+394019
+M
+43G
+434433 *
+1 (,28:5B$
+
+
+11
+12
+
+
+13
+45
+
+
+15
+46
+
+47
+474819
+M
+49G
+495033 *
+1 (328:5B$
+
+
+11
+12
+
+
+13
+51
+
+
+15
+52r‚
+
+81720*
+12 (T
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+12 (?
+
+82726*
+1@ (M
+
+82926*
+1O (S
+
+313638*
+1 (
+
+313941*
+1$ ((
+
+313626*
+1 (	
+
+312726*
+1
+ (
+
+313942*
+1) (-
+
+313926*
+1$ ((
+
+434738*
+1 (
+
+433941*
+1- (1
+
+434726*
+1 (
+
+432726*
+1 (
+
+433942*
+12 (6
+
+433926*
+1- (1
+
+494738*
+1 (
+
+492941*
+14 (8
+
+494726*
+1 (
+
+492726*
+1 (
+
+492942*
+19 (?
+
+492926*
+14 (8

@@ -1,0 +1,617 @@
+
+1.0	java-apexJavaFrontend*java2.B¸
+]
+Xloan_project/loan_app/src/main/java/com/loanproject/loan_app/dto/ReminderSendResult.java2
+	
+type3
+	
+MAIN4
+
+package6
+!
+com.loanproject.loan_app.dto7
+4
+/com.loanproject.loan_app.dto.ReminderSendResult9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(6:1)-(62:2)14
+
+simple-name15
+
+ReminderSendResult16
+=
+7com.loanproject.loan_app.dto.ReminderSendResult.success18
+
+field19
+
+private20
+
+(8:5)-(8:29)21
+
+success22
+G
+Acom.loanproject.loan_app.dto.ReminderSendResult.providerMessageId24
+
+(9:5)-(9:38)25
+
+providerMessageId26
+
+java.lang.String28
+
+unknown29
+
+is type30
+
+
+uses31
+F
+@com.loanproject.loan_app.dto.ReminderSendResult.transientFailure33
+
+(10:5)-(10:38)34
+
+transientFailure35
+B
+<com.loanproject.loan_app.dto.ReminderSendResult.errorMessage37
+
+(11:5)-(11:33)38
+
+errorMessage39
+?
+9com.loanproject.loan_app.dto.ReminderSendResult#<init>()V41
+
+method42
+
+(13:5)-(14:6)43
+3
+-jdk.internal.vm.annotation.IntrinsicCandidate44
+‚
+|com.loanproject.loan_app.dto.ReminderSendResult#success(Ljava/lang/String;)Lcom/loanproject/loan_app/dto/ReminderSendResult;46
+
+(16:5)-(21:6)47
+
+returns48
+
+	has param49
+
+calls50
+
+
+references51
+D
+>com.loanproject.loan_app.dto.ReminderSendResult#setSuccess(Z)V53
+
+ARG_054
+
+
+true55
+_
+Ycom.loanproject.loan_app.dto.ReminderSendResult#setProviderMessageId(Ljava/lang/String;)V57
+ƒ
+}com.loanproject.loan_app.dto.ReminderSendResult#failure(Ljava/lang/String;Z)Lcom/loanproject/loan_app/dto/ReminderSendResult;59
+
+(23:5)-(29:6)60
+
+failure61
+
+false62
+Z
+Tcom.loanproject.loan_app.dto.ReminderSendResult#setErrorMessage(Ljava/lang/String;)V64
+M
+Gcom.loanproject.loan_app.dto.ReminderSendResult#setTransientFailure(Z)V66
+B
+<com.loanproject.loan_app.dto.ReminderSendResult#isSuccess()Z68
+
+(31:5)-(33:6)69
+
+	isSuccess70
+
+(35:5)-(37:6)71
+
+
+setSuccess72
+^
+Xcom.loanproject.loan_app.dto.ReminderSendResult#getProviderMessageId()Ljava/lang/String;74
+
+(39:5)-(41:6)75
+
+getProviderMessageId76
+
+(43:5)-(45:6)77
+
+setProviderMessageId78
+K
+Ecom.loanproject.loan_app.dto.ReminderSendResult#isTransientFailure()Z80
+
+(47:5)-(49:6)81
+
+isTransientFailure82
+
+(51:5)-(53:6)83
+
+setTransientFailure84
+Y
+Scom.loanproject.loan_app.dto.ReminderSendResult#getErrorMessage()Ljava/lang/String;86
+
+(55:5)-(57:6)87
+
+getErrorMessage88
+
+(59:5)-(61:6)89
+
+setErrorMessage90J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j†
+
+G
+8B
+8910 *
+1 ( :5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+17G
+171819 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+23G
+232419 *
+1	 	(%28:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+
+27
+272829
+M
+32G
+323319 *
+1
+ 
+(%28:5B$
+
+
+11
+20
+
+
+13
+34
+
+
+15
+35
+M
+36G
+363719 *
+1 ( 28:5B$
+
+
+11
+20
+
+
+13
+38
+
+
+15
+39
+U
+40O
+404142 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+43
+
+
+15
+16R
+
+44
+M
+45G
+454642 *
+1& (-28:5B$
+
+
+11
+12
+
+
+13
+47
+
+
+15
+22
+M
+52G
+525342 *
+1# #(28:5B$
+
+
+11
+12
+
+
+13
+71
+
+
+15
+72
+M
+56G
+565742 *
+1+ +(%28:5B$
+
+
+11
+12
+
+
+13
+77
+
+
+15
+78
+M
+58G
+585942 *
+1& (-28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+M
+63G
+636442 *
+1; ;( 28:5B$
+
+
+11
+12
+
+
+13
+89
+
+
+15
+90
+M
+65G
+656642 *
+13 3($28:5B$
+
+
+11
+12
+
+
+13
+83
+
+
+15
+84
+M
+67G
+676842 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+69
+
+
+15
+70
+M
+73G
+737442 *
+1' '('28:5B$
+
+
+11
+12
+
+
+13
+75
+
+
+15
+76
+M
+79G
+798042 *
+1/ /(&28:5B$
+
+
+11
+12
+
+
+13
+81
+
+
+15
+82
+M
+85G
+858642 *
+17 7("28:5B$
+
+
+11
+12
+
+
+13
+87
+
+
+15
+88r
+
+232730*
+1	 	(
+
+232731*
+1	 	(
+
+232731*
+1	 	(%
+
+362730*
+1 (
+
+362731*
+1 (
+
+362731*
+1 ( 
+
+45848*
+1 (%
+
+452749*
+1. (4
+
+45831*
+1 (%
+
+452730*
+15 (F
+
+452731*
+1. (4
+
+45830*
+1 ("
+
+45831*
+1	 (
+
+45850*
+1) (;
+
+45851*
+1	 (
+'
+455250*
+1 (2
+
+
+54
+55
+
+45851*
+1	 ($
+
+455650*
+1 ($
+
+58848*
+1 (%
+
+582749*
+1. (4
+
+58831*
+1 (%
+
+582730*
+15 (A
+
+582731*
+1. (4
+
+58830*
+1 ("
+
+58831*
+1	 (
+
+58850*
+1) (;
+
+58851*
+1	 (
+'
+585250*
+1 (2
+
+
+54
+62
+
+58851*
+1	 (
+
+586350*
+1 (
+
+58851*
+1	 (#
+
+586550*
+1 (#
+
+671751*
+1   (
+
+52831*
+1$	 $(
+
+52851*
+1$	 $(
+
+521751*
+1$ $(
+
+732748*
+1' '(
+
+732731*
+1' '(
+
+732731*
+1( ((!
+
+732351*
+1( ((!
+
+562749*
+1+& +(,
+
+562730*
+1+- +(>
+
+562731*
+1+& +(,
+
+56831*
+1,	 ,(
+
+56851*
+1,	 ,(
+
+562731*
+1, ,(
+
+562351*
+1, ,(
+
+793251*
+10 0( 
+
+65831*
+14	 4(
+
+65851*
+14	 4(
+
+653251*
+14 4(
+
+852748*
+17 7(
+
+852731*
+17 7(
+
+852731*
+18 8(
+
+853651*
+18 8(
+
+632749*
+1;! ;('
+
+632730*
+1;( ;(4
+
+632731*
+1;! ;('
+
+63831*
+1<	 <(
+
+63851*
+1<	 <(
+
+632731*
+1< <(
+
+633651*
+1< <(

@@ -1,0 +1,165 @@
+
+1.0	java-apexJavaFrontend*java2.BÙ
+X
+Sloan_project/loan_app/src/main/java/com/loanproject/loan_app/dto/SectionStatus.java2
+	
+type3
+	
+MAIN4
+
+package6
+!
+com.loanproject.loan_app.dto7
+/
+*com.loanproject.loan_app.dto.SectionStatus9
+
+
+enum10
+
+access11
+
+public12
+
+
+full-range13
+
+(3:1)-(8:2)14
+
+simple-name15
+
+SectionStatus16
+f
+`com.loanproject.loan_app.dto.SectionStatus#values()[Lcom/loanproject/loan_app/dto/SectionStatus;18
+
+method19
+
+values20
+x
+rcom.loanproject.loan_app.dto.SectionStatus#valueOf(Ljava/lang/String;)Lcom/loanproject/loan_app/dto/SectionStatus;22
+
+valueOf23
+8
+2com.loanproject.loan_app.dto.SectionStatus.SUCCESS25
+
+field26
+
+(4:5)-(4:13)27
+
+SUCCESS28
+8
+2com.loanproject.loan_app.dto.SectionStatus.PARTIAL30
+
+(5:5)-(5:13)31
+
+PARTIAL32
+<
+6com.loanproject.loan_app.dto.SectionStatus.UNAVAILABLE34
+
+(6:5)-(6:17)35
+
+UNAVAILABLE36
+6
+0com.loanproject.loan_app.dto.SectionStatus.ERROR38
+
+(7:5)-(7:10)39
+
+ERROR40J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÛ
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+A
+17;
+171819 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+20
+A
+21;
+212219 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+23
+A
+24;
+242526 *
+1 (28:5B
+
+
+13
+27
+
+
+15
+28
+A
+29;
+293026 *
+1 (28:5B
+
+
+13
+31
+
+
+15
+32
+A
+33;
+333426 *
+1 (28:5B
+
+
+13
+35
+
+
+15
+36
+A
+37;
+373826 *
+1 (
+28:5B
+
+
+13
+39
+
+
+15
+40

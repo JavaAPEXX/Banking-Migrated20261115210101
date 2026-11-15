@@ -1,0 +1,561 @@
+
+1.0	java-apexJavaFrontend*java2.B¢
+f
+aloan_project/loan_app/src/main/java/com/loanproject/loan_app/dto/RepaymentScheduleSectionDTO.java2
+	
+type3
+	
+MAIN4
+
+package6
+!
+com.loanproject.loan_app.dto7
+=
+8com.loanproject.loan_app.dto.RepaymentScheduleSectionDTO9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(7:1)-(55:2)14
+
+simple-name15
+!
+RepaymentScheduleSectionDTO16
+
+java.io.Serializable18
+
+unknown19
+
+
+implements20
+
+
+uses21
+K
+Ecom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO.installments23
+
+field24
+
+private25
+
+(9:5)-(9:76)26
+
+installments27
+
+java.util.List29
+
+is type30
+5
+/Recovered#typeBindingLRepaymentInstallmentDTO;032
+
+java.util.ArrayList34
+
+calls35
+P
+Jcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO.totalInstallments37
+
+(10:5)-(10:35)38
+
+totalInstallments39
+H
+Bcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO.paidCount41
+
+(11:5)-(11:27)42
+
+	paidCount43
+K
+Ecom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO.overdueCount45
+
+(12:5)-(12:30)46
+
+overdueCount47
+H
+Bcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#<init>()V49
+
+method50
+
+(14:5)-(15:6)51
+3
+-jdk.internal.vm.annotation.IntrinsicCandidate52
+[
+Ucom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#<init>(Ljava/util/List;III)V54
+
+(17:5)-(22:6)55
+
+	has param56
+
+
+references57
+`
+Zcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#getInstallments()Ljava/util/List;59
+
+(24:5)-(26:6)60
+
+getInstallments61
+
+returns62
+a
+[com.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#setInstallments(Ljava/util/List;)V64
+
+(28:5)-(30:6)65
+
+setInstallments66
+V
+Pcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#getTotalInstallments()I68
+
+(32:5)-(34:6)69
+
+getTotalInstallments70
+W
+Qcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#setTotalInstallments(I)V72
+
+(36:5)-(38:6)73
+
+setTotalInstallments74
+N
+Hcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#getPaidCount()I76
+
+(40:5)-(42:6)77
+
+getPaidCount78
+O
+Icom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#setPaidCount(I)V80
+
+(44:5)-(46:6)81
+
+setPaidCount82
+Q
+Kcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#getOverdueCount()I84
+
+(48:5)-(50:6)85
+
+getOverdueCount86
+R
+Lcom.loanproject.loan_app.dto.RepaymentScheduleSectionDTO#setOverdueCount(I)V88
+
+(52:5)-(54:6)89
+
+setOverdueCount90J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jó	
+G
+8B
+8910 *
+1 ():5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+M
+22G
+222324 *
+1	+ 	(728:5B$
+
+
+11
+25
+
+
+13
+26
+
+
+15
+27
+
+28
+282919
+
+31
+313219
+
+33
+333410
+M
+36G
+363724 *
+1
+ 
+("28:5B$
+
+
+11
+25
+
+
+13
+38
+
+
+15
+39
+M
+40G
+404124 *
+1 (28:5B$
+
+
+11
+25
+
+
+13
+42
+
+
+15
+43
+M
+44G
+444524 *
+1 (28:5B$
+
+
+11
+25
+
+
+13
+46
+
+
+15
+47
+U
+48O
+484950 *
+1 ('28:5B$
+
+
+11
+12
+
+
+13
+51
+
+
+15
+16R
+
+52
+M
+53G
+535450 *
+1 ('28:5B$
+
+
+11
+12
+
+
+13
+55
+
+
+15
+16
+M
+58G
+585950 *
+1* (928:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+M
+63G
+636450 *
+1 ( 28:5B$
+
+
+11
+12
+
+
+13
+65
+
+
+15
+66
+M
+67G
+676850 *
+1   ($28:5B$
+
+
+11
+12
+
+
+13
+69
+
+
+15
+70
+M
+71G
+717250 *
+1$ $(%28:5B$
+
+
+11
+12
+
+
+13
+73
+
+
+15
+74
+M
+75G
+757650 *
+1( ((28:5B$
+
+
+11
+12
+
+
+13
+77
+
+
+15
+78
+M
+79G
+798050 *
+1, ,(28:5B$
+
+
+11
+12
+
+
+13
+81
+
+
+15
+82
+M
+83G
+838450 *
+10 0(28:5B$
+
+
+11
+12
+
+
+13
+85
+
+
+15
+86
+M
+87G
+878850 *
+14 4( 28:5B$
+
+
+11
+12
+
+
+13
+89
+
+
+15
+90r´
+
+
+81720*
+15 (A
+
+81721*
+15 (A
+
+222830*
+1	 	(*
+
+222821*
+1	 	(
+
+223121*
+1	 	()
+
+222821*
+1	+ 	(7
+
+223335*
+1	> 	(I
+
+532856*
+1( (E
+
+532830*
+1F (R
+
+532821*
+1( (,
+
+533121*
+1- (D
+
+53821*
+1	 (
+
+53857*
+1	 (
+
+532821*
+1 (
+
+532257*
+1 (
+
+533335*
+1G (R
+
+53821*
+1	 (
+
+53857*
+1	 (
+
+533657*
+1 (
+
+53821*
+1	 (
+
+53857*
+1	 (
+
+534057*
+1 (
+
+53821*
+1	 (
+
+53857*
+1	 (
+
+534457*
+1 (
+
+582862*
+1 ()
+
+582821*
+1 (
+
+583121*
+1 ((
+
+582821*
+1 (
+
+582257*
+1 (
+
+632856*
+1! (>
+
+632830*
+1? (K
+
+632821*
+1! (%
+
+633121*
+1& (=
+
+63821*
+1	 (
+
+63857*
+1	 (
+
+632821*
+1 (
+
+632257*
+1 (
+
+673657*
+1! !(!
+
+71821*
+1%	 %(
+
+71857*
+1%	 %(
+
+713657*
+1% %(
+
+754057*
+1) )(
+
+79821*
+1-	 -(
+
+79857*
+1-	 -(
+
+794057*
+1- -(
+
+834457*
+11 1(
+
+87821*
+15	 5(
+
+87857*
+15	 5(
+
+874457*
+15 5(

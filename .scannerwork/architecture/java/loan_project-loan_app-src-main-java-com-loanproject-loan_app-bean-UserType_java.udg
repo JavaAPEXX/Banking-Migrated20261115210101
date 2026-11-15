@@ -1,0 +1,129 @@
+
+1.0	java-apexJavaFrontend*java2.Bı
+T
+Oloan_project/loan_app/src/main/java/com/loanproject/loan_app/bean/UserType.java2
+	
+type3
+	
+MAIN4
+
+package6
+"
+com.loanproject.loan_app.bean7
++
+&com.loanproject.loan_app.bean.UserType9
+
+
+enum10
+
+access11
+
+public12
+
+
+full-range13
+
+(3:1)-(6:2)14
+
+simple-name15
+
+UserType16
+^
+Xcom.loanproject.loan_app.bean.UserType#values()[Lcom/loanproject/loan_app/bean/UserType;18
+
+method19
+
+values20
+p
+jcom.loanproject.loan_app.bean.UserType#valueOf(Ljava/lang/String;)Lcom/loanproject/loan_app/bean/UserType;22
+
+valueOf23
+5
+/com.loanproject.loan_app.bean.UserType.CUSTOMER25
+
+field26
+
+(4:5)-(4:14)27
+
+CUSTOMER28
+2
+,com.loanproject.loan_app.bean.UserType.STAFF30
+
+(5:5)-(5:10)31
+
+STAFF32J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j’
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+A
+17;
+171819 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+20
+A
+21;
+212219 *
+1 (28:5B
+
+
+13
+14
+
+
+15
+23
+A
+24;
+242526 *
+1 (28:5B
+
+
+13
+27
+
+
+15
+28
+A
+29;
+293026 *
+1 (
+28:5B
+
+
+13
+31
+
+
+15
+32

@@ -1,0 +1,240 @@
+
+1.0	java-apexJavaFrontend*java2.Bü	
+v
+qloan_project/loan_app/src/main/java/com/loanproject/loan_app/repository/UserNotificationPreferenceRepository.java2
+	
+type3
+	
+MAIN4
+
+package6
+(
+#com.loanproject.loan_app.repository7
+M
+Hcom.loanproject.loan_app.repository.UserNotificationPreferenceRepository9
+
+	interface10
+
+access11
+
+public12
+
+
+full-range13
+
+(11:1)-(19:2)14
+
+simple-name15
+*
+$UserNotificationPreferenceRepository16
++
+%Recovered#typeBindingLJpaRepository;018
+
+unknown19
+
+
+implements20
+
+
+Repository22
+
+annotated by23
+(
+"Recovered#typeBindingLRepository;025
+
+
+uses26
+8
+2Recovered#typeBindingLUserNotificationPreference;028
+
+java.lang.Long30
+u
+ocom.loanproject.loan_app.repository.UserNotificationPreferenceRepository#findByUser(LUser;)Ljava/util/Optional;32
+
+method33
+
+(14:5)-(14:64)34
+
+
+findByUser35
+
+java.util.Optional37
+
+returns38
+"
+Recovered#typeBindingLUser;040
+
+	has param41
+
+is type42
+‚
+|com.loanproject.loan_app.repository.UserNotificationPreferenceRepository#findByUser_Id(Ljava/lang/Long;)Ljava/util/Optional;44
+
+(16:5)-(16:69)45
+
+findByUser_Id46
+d
+^com.loanproject.loan_app.repository.UserNotificationPreferenceRepository#deleteByUser(LUser;)V48
+
+(18:5)-(18:34)49
+
+deleteByUser50J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÂ
+G
+8B
+8910 *
+1 (6:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+27
+272819
+
+29
+293019
+M
+31G
+313233 *
+1* (428:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35
+
+36
+363719
+
+39
+394019
+M
+43G
+434433 *
+1* (728:5B$
+
+
+11
+12
+
+
+13
+45
+
+
+15
+46
+M
+47G
+474833 *
+1
+ (28:5B$
+
+
+11
+12
+
+
+13
+49
+
+
+15
+50r±
+
+81720*
+1? (n
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+1? (L
+
+82726*
+1M (g
+
+82926*
+1i (m
+
+313638*
+1 ()
+
+313941*
+15 (9
+
+313626*
+1 (
+
+312726*
+1 ((
+
+313942*
+1: (>
+
+313926*
+15 (9
+
+433638*
+1 ()
+
+432941*
+18 (<
+
+433626*
+1 (
+
+432726*
+1 ((
+
+432942*
+1= (C
+
+432926*
+18 (<
+
+473941*
+1 (
+
+473942*
+1 ( 
+
+473926*
+1 (

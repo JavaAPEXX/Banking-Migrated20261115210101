@@ -1,0 +1,660 @@
+
+1.0	java-apexJavaFrontend*java2.Bë
+a
+\loan_project/loan_app/src/main/java/com/loanproject/loan_app/security/CustomUserDetails.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+8
+3com.loanproject.loan_app.security.CustomUserDetails9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(12:1)-(63:2)14
+
+simple-name15
+
+CustomUserDetails16
+)
+#Recovered#typeBindingLUserDetails;018
+
+unknown19
+
+
+implements20
+
+
+uses21
+>
+8com.loanproject.loan_app.security.CustomUserDetails.user23
+
+field24
+
+private25
+
+(14:5)-(14:29)26
+
+
+user27
+(
+"com.loanproject.loan_app.bean.User29
+
+is type30
+g
+acom.loanproject.loan_app.security.CustomUserDetails#<init>(Lcom/loanproject/loan_app/bean/User;)V32
+
+method33
+
+(16:5)-(18:6)34
+
+	has param35
+
+
+references36
+g
+acom.loanproject.loan_app.security.CustomUserDetails#getUser()Lcom/loanproject/loan_app/bean/User;38
+
+(20:5)-(22:6)39
+
+getUser40
+
+returns41
+Q
+Kcom.loanproject.loan_app.security.CustomUserDetails#getId()Ljava/lang/Long;43
+
+(24:5)-(26:6)44
+
+getId45
+
+java.lang.Long47
+@
+:com.loanproject.loan_app.bean.User#getId()Ljava/lang/Long;49
+
+calls50
+`
+Zcom.loanproject.loan_app.security.CustomUserDetails#getAuthorities()Ljava/util/Collection;52
+
+(28:5)-(32:6)53
+
+getAuthorities54
+
+java.lang.Override55
+
+java.util.Collection57
+
+annotated by59
+.
+(Recovered#typeBindingLGrantedAuthority;061
+
+bound by62
+
+java.lang.String64
+
+AppRole66
+;
+5com.loanproject.loan_app.bean.User#getRole()LAppRole;68
+
+java.util.List70
+
+java.util.Collections72
+M
+Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;74
+Y
+Scom.loanproject.loan_app.security.CustomUserDetails#getPassword()Ljava/lang/String;76
+
+(34:5)-(37:6)77
+
+getPassword78
+H
+Bcom.loanproject.loan_app.bean.User#getPassword()Ljava/lang/String;80
+Y
+Scom.loanproject.loan_app.security.CustomUserDetails#getUsername()Ljava/lang/String;82
+
+(39:5)-(42:6)83
+
+getUsername84
+E
+?com.loanproject.loan_app.bean.User#getEmail()Ljava/lang/String;86
+P
+Jcom.loanproject.loan_app.security.CustomUserDetails#isAccountNonExpired()Z88
+
+(44:5)-(47:6)89
+
+isAccountNonExpired90
+O
+Icom.loanproject.loan_app.security.CustomUserDetails#isAccountNonLocked()Z92
+
+(49:5)-(52:6)93
+
+isAccountNonLocked94
+>
+8com.loanproject.loan_app.bean.User#isAccountNonLocked()Z96
+T
+Ncom.loanproject.loan_app.security.CustomUserDetails#isCredentialsNonExpired()Z98
+
+(54:5)-(57:6)99
+
+isCredentialsNonExpired100
+G
+@com.loanproject.loan_app.security.CustomUserDetails#isEnabled()Z102
+
+(59:5)-(62:6)103
+
+	isEnabled104J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j¬
+
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+M
+22G
+222324 *
+1 (28:5B$
+
+
+11
+25
+
+
+13
+26
+
+
+15
+27
+
+28
+282919
+M
+31G
+313233 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+16
+M
+37G
+373833 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+39
+
+
+15
+40
+M
+42G
+424333 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+44
+
+
+15
+45
+
+46
+464719
+
+48
+484933
+U
+51O
+515233 *
+13 (A28:5B$
+
+
+11
+12
+
+
+13
+53
+
+
+15
+54R
+
+55
+
+56
+565719
+
+58
+585519
+
+60
+606119
+
+63
+636419
+
+65
+656619
+
+67
+676833
+
+69
+697019
+
+71
+717219
+
+73
+737433
+U
+75O
+757633 *
+1# #(28:5B$
+
+
+11
+12
+
+
+13
+77
+
+
+15
+78R
+
+55
+
+79
+798033
+U
+81O
+818233 *
+1( ((28:5B$
+
+
+11
+12
+
+
+13
+83
+
+
+15
+84R
+
+55
+
+85
+858633
+U
+87O
+878833 *
+1- -('28:5B$
+
+
+11
+12
+
+
+13
+89
+
+
+15
+90R
+
+55
+U
+91O
+919233 *
+12 2(&28:5B$
+
+
+11
+12
+
+
+13
+93
+
+
+15
+94R
+
+55
+
+95
+959633
+V
+97P
+979833 *
+17 7(+28:5B%
+
+
+11
+12
+
+
+13
+99
+
+15
+100R
+
+55
+Z
+101S
+10110233 *
+1< <(28:5B&
+
+
+11
+12
+
+13
+103
+
+15
+104R
+
+55r‰
+
+81720*
+1+ (6
+
+81721*
+1+ (6
+
+222830*
+1 (
+
+222821*
+1 (
+
+222821*
+1 (
+
+312835*
+1 ("
+
+312830*
+1# ('
+
+312821*
+1 ("
+
+31821*
+1	 (
+
+31836*
+1	 (
+
+312821*
+1 (
+
+312236*
+1 (
+
+372841*
+1 (
+
+372821*
+1 (
+
+372821*
+1 (
+
+372236*
+1 (
+
+424641*
+1 (
+
+424621*
+1 (
+
+424641*
+1 (
+
+422836*
+1 (
+
+424850*
+1 (
+
+422236*
+1 (
+
+422821*
+1 (
+
+422236*
+1 (
+
+515641*
+1 (2
+
+515859*
+1 (
+
+515821*
+1 (
+
+515621*
+1 (
+
+516062*
+1! (1
+
+516021*
+1! (1
+
+516330*
+1 (
+
+516321*
+1	 (
+
+516541*
+1 ('
+
+512836*
+1 ('
+
+516750*
+1  ('
+
+512236*
+1 (
+
+512821*
+1 (
+
+512236*
+1 (
+
+516541*
+14 (@
+
+512836*
+14 (@
+
+516750*
+19 (@
+
+512236*
+14 (8
+
+512821*
+14 (8
+
+512236*
+14 (8
+
+516941*
+1 ()
+
+517136*
+1 ()
+
+517350*
+1 ()
+
+517121*
+1 (
+
+756341*
+1# #(
+
+755859*
+1" "(
+
+755821*
+1" "(
+
+756321*
+1# #(
+
+756341*
+1$ $( 
+
+752836*
+1$ $( 
+
+757950*
+1$ $( 
+
+752236*
+1$ $(
+
+752821*
+1$ $(
+
+752236*
+1$ $(
+
+816341*
+1( ((
+
+815859*
+1' '(
+
+815821*
+1' '(
+
+816321*
+1( ((
+
+816341*
+1) )(
+
+812836*
+1) )(
+
+818550*
+1) )(
+
+812236*
+1) )(
+
+812821*
+1) )(
+
+812236*
+1) )(
+
+875859*
+1, ,(
+
+875821*
+1, ,(
+
+915859*
+11 1(
+
+915821*
+11 1(
+
+912836*
+13 3('
+
+919550*
+13 3('
+
+912236*
+13 3(
+
+912821*
+13 3(
+
+912236*
+13 3(
+
+975859*
+16 6(
+
+975821*
+16 6(
+
+1015859*
+1; ;(
+
+1015821*
+1; ;(

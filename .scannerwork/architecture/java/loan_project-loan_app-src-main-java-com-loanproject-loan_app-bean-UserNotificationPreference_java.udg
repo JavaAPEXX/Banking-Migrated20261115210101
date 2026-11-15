@@ -1,0 +1,1148 @@
+
+1.0	java-apexJavaFrontend*java2.Bπ%
+f
+aloan_project/loan_app/src/main/java/com/loanproject/loan_app/bean/UserNotificationPreference.java2
+	
+type3
+	
+MAIN4
+
+package6
+"
+com.loanproject.loan_app.bean7
+=
+8com.loanproject.loan_app.bean.UserNotificationPreference9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(20:1)-(132:2)14
+
+simple-name15
+ 
+UserNotificationPreference16
+
+Entity18
+
+unknown19
+
+annotated by20
+$
+Recovered#typeBindingLEntity;022
+
+
+uses23
+
+Table25
+#
+Recovered#typeBindingLTable;027
+A
+;com.loanproject.loan_app.bean.UserNotificationPreference.id29
+
+field30
+
+private31
+
+(24:5)-(26:21)32
+
+id33
+
+java.lang.Long35
+
+is type36
+
+Id38
+ 
+Recovered#typeBindingLId;040
+
+GeneratedValue42
+,
+&Recovered#typeBindingLGeneratedValue;044
+C
+=com.loanproject.loan_app.bean.UserNotificationPreference.user46
+
+(28:5)-(30:23)47
+
+
+user48
+(
+"com.loanproject.loan_app.bean.User50
+
+OneToOne52
+&
+ Recovered#typeBindingLOneToOne;054
+
+
+JoinColumn56
+(
+"Recovered#typeBindingLJoinColumn;058
+K
+Ecom.loanproject.loan_app.bean.UserNotificationPreference.emailEnabled60
+
+(32:5)-(33:41)61
+
+emailEnabled62
+
+Column64
+$
+Recovered#typeBindingLColumn;066
+I
+Ccom.loanproject.loan_app.bean.UserNotificationPreference.smsEnabled68
+
+(35:5)-(36:39)69
+
+
+smsEnabled70
+Q
+Kcom.loanproject.loan_app.bean.UserNotificationPreference.loanUpdatesEnabled72
+
+(38:5)-(39:47)73
+
+loanUpdatesEnabled74
+X
+Rcom.loanproject.loan_app.bean.UserNotificationPreference.repaymentRemindersEnabled76
+
+(41:5)-(42:54)77
+
+repaymentRemindersEnabled78
+T
+Ncom.loanproject.loan_app.bean.UserNotificationPreference.securityAlertsEnabled80
+
+(44:5)-(45:50)81
+
+securityAlertsEnabled82
+H
+Bcom.loanproject.loan_app.bean.UserNotificationPreference.updatedAt84
+
+(47:5)-(48:47)85
+
+	updatedAt86
+
+java.time.Instant88
+
+returns89
+
+
+references90
+0
+*java.time.Instant#now()Ljava/time/Instant;92
+
+method93
+
+calls94
+H
+Bcom.loanproject.loan_app.bean.UserNotificationPreference#<init>()V96
+
+(50:5)-(51:6)97
+3
+-jdk.internal.vm.annotation.IntrinsicCandidate98
+m
+fcom.loanproject.loan_app.bean.UserNotificationPreference#<init>(Lcom/loanproject/loan_app/bean/User;)V100
+
+(53:5)-(61:6)101
+
+	has param102
+K
+Dcom.loanproject.loan_app.bean.UserNotificationPreference#onUpdate()V104
+
+(63:5)-(67:6)105
+
+onUpdate106
+
+
+PrePersist108
+)
+"Recovered#typeBindingLPrePersist;0110
+
+	PreUpdate112
+(
+!Recovered#typeBindingLPreUpdate;0114
+W
+Pcom.loanproject.loan_app.bean.UserNotificationPreference#getId()Ljava/lang/Long;116
+
+(69:5)-(71:6)117
+
+getId118
+X
+Qcom.loanproject.loan_app.bean.UserNotificationPreference#setId(Ljava/lang/Long;)V120
+
+(73:5)-(75:6)121
+
+setId122
+m
+fcom.loanproject.loan_app.bean.UserNotificationPreference#getUser()Lcom/loanproject/loan_app/bean/User;124
+
+(77:5)-(79:6)125
+
+getUser126
+n
+gcom.loanproject.loan_app.bean.UserNotificationPreference#setUser(Lcom/loanproject/loan_app/bean/User;)V128
+
+(81:5)-(83:6)129
+
+setUser130
+Q
+Jcom.loanproject.loan_app.bean.UserNotificationPreference#isEmailEnabled()Z132
+
+(85:5)-(87:6)133
+
+isEmailEnabled134
+S
+Lcom.loanproject.loan_app.bean.UserNotificationPreference#setEmailEnabled(Z)V136
+
+(89:5)-(91:6)137
+
+setEmailEnabled138
+O
+Hcom.loanproject.loan_app.bean.UserNotificationPreference#isSmsEnabled()Z140
+
+(93:5)-(95:6)141
+
+isSmsEnabled142
+Q
+Jcom.loanproject.loan_app.bean.UserNotificationPreference#setSmsEnabled(Z)V144
+
+(97:5)-(99:6)145
+
+setSmsEnabled146
+W
+Pcom.loanproject.loan_app.bean.UserNotificationPreference#isLoanUpdatesEnabled()Z148
+
+(101:5)-(103:6)149
+
+isLoanUpdatesEnabled150
+Y
+Rcom.loanproject.loan_app.bean.UserNotificationPreference#setLoanUpdatesEnabled(Z)V152
+
+(105:5)-(107:6)153
+
+setLoanUpdatesEnabled154
+^
+Wcom.loanproject.loan_app.bean.UserNotificationPreference#isRepaymentRemindersEnabled()Z156
+
+(109:5)-(111:6)157
+"
+isRepaymentRemindersEnabled158
+`
+Ycom.loanproject.loan_app.bean.UserNotificationPreference#setRepaymentRemindersEnabled(Z)V160
+
+(113:5)-(115:6)161
+#
+setRepaymentRemindersEnabled162
+Z
+Scom.loanproject.loan_app.bean.UserNotificationPreference#isSecurityAlertsEnabled()Z164
+
+(117:5)-(119:6)165
+
+isSecurityAlertsEnabled166
+\
+Ucom.loanproject.loan_app.bean.UserNotificationPreference#setSecurityAlertsEnabled(Z)V168
+
+(121:5)-(123:6)169
+
+setSecurityAlertsEnabled170
+a
+Zcom.loanproject.loan_app.bean.UserNotificationPreference#getUpdatedAt()Ljava/time/Instant;172
+
+(125:5)-(127:6)173
+
+getUpdatedAt174
+b
+[com.loanproject.loan_app.bean.UserNotificationPreference#setUpdatedAt(Ljava/time/Instant;)V176
+
+(129:5)-(131:6)177
+
+setUpdatedAt178J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j√
+G
+8B
+8910 *
+1 ((:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+26
+262719
+M
+28G
+282930 *
+1 (28:5B$
+
+
+11
+31
+
+
+13
+32
+
+
+15
+33
+
+34
+343519
+
+37
+373819
+
+39
+394019
+
+41
+414219
+
+43
+434419
+M
+45G
+454630 *
+1 (28:5B$
+
+
+11
+31
+
+
+13
+47
+
+
+15
+48
+
+49
+495019
+
+51
+515219
+
+53
+535419
+
+55
+555619
+
+57
+575819
+M
+59G
+596030 *
+1! !(!28:5B$
+
+
+11
+31
+
+
+13
+61
+
+
+15
+62
+
+63
+636419
+
+65
+656619
+M
+67G
+676830 *
+1$ $(28:5B$
+
+
+11
+31
+
+
+13
+69
+
+
+15
+70
+M
+71G
+717230 *
+1' '('28:5B$
+
+
+11
+31
+
+
+13
+73
+
+
+15
+74
+M
+75G
+757630 *
+1* *(.28:5B$
+
+
+11
+31
+
+
+13
+77
+
+
+15
+78
+M
+79G
+798030 *
+1- -(*28:5B$
+
+
+11
+31
+
+
+13
+81
+
+
+15
+82
+M
+83G
+838430 *
+10 0(28:5B$
+
+
+11
+31
+
+
+13
+85
+
+
+15
+86
+
+87
+878819
+
+91
+919293
+U
+95O
+959693 *
+12 2(&28:5B$
+
+
+11
+12
+
+
+13
+97
+
+
+15
+16R
+
+98
+O
+99I
+9910093 *
+15 5(&28:5B%
+
+
+11
+12
+
+13
+101
+
+
+15
+16
+R
+103K
+10310493 *
+1A A(28:5B&
+
+
+11
+12
+
+13
+105
+
+15
+106
+
+107
+10710819
+
+109
+10911019
+
+111
+11111219
+
+113
+11311419
+R
+115K
+11511693 *
+1E E(28:5B&
+
+
+11
+12
+
+13
+117
+
+15
+118
+R
+119K
+11912093 *
+1I I(28:5B&
+
+
+11
+12
+
+13
+121
+
+15
+122
+R
+123K
+12312493 *
+1M M(28:5B&
+
+
+11
+12
+
+13
+125
+
+15
+126
+R
+127K
+12712893 *
+1Q Q(28:5B&
+
+
+11
+12
+
+13
+129
+
+15
+130
+R
+131K
+13113293 *
+1U U("28:5B&
+
+
+11
+12
+
+13
+133
+
+15
+134
+R
+135K
+13513693 *
+1Y Y( 28:5B&
+
+
+11
+12
+
+13
+137
+
+15
+138
+R
+139K
+13914093 *
+1] ]( 28:5B&
+
+
+11
+12
+
+13
+141
+
+15
+142
+R
+143K
+14314493 *
+1a a(28:5B&
+
+
+11
+12
+
+13
+145
+
+15
+146
+R
+147K
+14714893 *
+1e e((28:5B&
+
+
+11
+12
+
+13
+149
+
+15
+150
+R
+151K
+15115293 *
+1i i(&28:5B&
+
+
+11
+12
+
+13
+153
+
+15
+154
+R
+155K
+15515693 *
+1m m(/28:5B&
+
+
+11
+12
+
+13
+157
+
+15
+158
+R
+159K
+15916093 *
+1q q(-28:5B&
+
+
+11
+12
+
+13
+161
+
+15
+162
+R
+163K
+16316493 *
+1u u(+28:5B&
+
+
+11
+12
+
+13
+165
+
+15
+166
+R
+167K
+16716893 *
+1y y()28:5B&
+
+
+11
+12
+
+13
+169
+
+15
+170
+R
+171K
+17117293 *
+1} }( 28:5B&
+
+
+11
+12
+
+13
+173
+
+15
+174
+T
+175M
+17517693 *
+1Å Å(28:5B&
+
+
+11
+12
+
+13
+177
+
+15
+178rü
+
+81720*
+1 (
+
+82123*
+1 (
+
+82420*
+1 (/
+
+82623*
+1 (
+
+283436*
+1 (
+
+283720*
+1 (
+
+283923*
+1 (
+
+284120*
+1 (8
+
+284323*
+1 (
+
+283423*
+1 (
+
+283423*
+1 (
+
+454936*
+1 (
+
+455120*
+1 ( 
+
+455323*
+1 (
+
+455520*
+1 (C
+
+455723*
+1 (
+
+454923*
+1 (
+
+454923*
+1 (
+
+596320*
+1   (6
+
+596523*
+1   (
+
+676320*
+1# #(4
+
+676523*
+1# #(
+
+716320*
+1& &(=
+
+716523*
+1& &(
+
+756320*
+1) )(D
+
+756523*
+1) )(
+
+796320*
+1, ,(@
+
+796523*
+1, ,(
+
+838736*
+10 0(
+
+836320*
+1/ /(!
+
+836523*
+1/ /(
+
+838723*
+10 0(
+
+838723*
+10 0(
+
+838789*
+10! 0(,
+
+838790*
+10! 0(,
+
+839194*
+10) 0(,
+
+838723*
+10! 0((
+
+9949102*
+15' 5(+
+
+994936*
+15, 5(0
+
+994923*
+15' 5(+
+
+99823*
+16	 6(
+
+99890*
+16	 6(
+
+994923*
+16 6(
+
+994590*
+16 6(
+
+99823*
+17	 7(
+
+99890*
+17	 7(
+
+995990*
+17 7(
+
+99823*
+18	 8(
+
+99890*
+18	 8(
+
+996790*
+18 8(
+
+99823*
+19	 9(
+
+99890*
+19	 9(
+
+997190*
+19 9( 
+
+99823*
+1:	 :(
+
+99890*
+1:	 :(
+
+997590*
+1: :('
+
+99823*
+1;	 ;(
+
+99890*
+1;	 ;(
+
+997990*
+1; ;(#
+
+99823*
+1<	 <(
+
+99890*
+1<	 <(
+
+998723*
+1< <(
+
+998390*
+1< <(
+
+998789*
+1< <(%
+
+998790*
+1< <(%
+
+999194*
+1<" <(%
+
+998723*
+1< <(!
+
+10310720*
+1? ?(
+
+10310923*
+1? ?(
+
+10311120*
+1@ @(
+
+10311323*
+1@ @(
+
+103823*
+1B	 B(
+
+103890*
+1B	 B(
+
+1038723*
+1B B(
+
+1038390*
+1B B(
+
+1038789*
+1B B(%
+
+1038790*
+1B B(%
+
+1039194*
+1B" B(%
+
+1038723*
+1B B(!
+
+1153489*
+1E E(
+
+1153423*
+1E E(
+
+1153423*
+1F F(
+
+1152890*
+1F F(
+
+11934102*
+1I I(
+
+1193436*
+1I I(
+
+1193423*
+1I I(
+
+119823*
+1J	 J(
+
+119890*
+1J	 J(
+
+1193423*
+1J J(
+
+1192890*
+1J J(
+
+1234989*
+1M M(
+
+1234923*
+1M M(
+
+1234923*
+1N N(
+
+1234590*
+1N N(
+
+12749102*
+1Q Q(
+
+1274936*
+1Q Q("
+
+1274923*
+1Q Q(
+
+127823*
+1R	 R(
+
+127890*
+1R	 R(
+
+1274923*
+1R R(
+
+1274590*
+1R R(
+
+1315990*
+1V V(
+
+135823*
+1Z	 Z(
+
+135890*
+1Z	 Z(
+
+1355990*
+1Z Z(
+
+1396790*
+1^ ^(
+
+143823*
+1b	 b(
+
+143890*
+1b	 b(
+
+1436790*
+1b b(
+
+1477190*
+1f f("
+
+151823*
+1j	 j(
+
+151890*
+1j	 j(
+
+1517190*
+1j j( 
+
+1557590*
+1n n()
+
+159823*
+1r	 r(
+
+159890*
+1r	 r(
+
+1597590*
+1r r('
+
+1637990*
+1v v(%
+
+167823*
+1z	 z(
+
+167890*
+1z	 z(
+
+1677990*
+1z z(#
+
+1718789*
+1} }(
+
+1718723*
+1} }(
+
+1718723*
+1~ ~(
+
+1718390*
+1~ ~(
+
+17587102*
+1Å Å(%
+
+1758736*
+1Å& Å(/
+
+1758723*
+1Å Å(%
+
+175823*
+1Ç	 Ç(
+
+175890*
+1Ç	 Ç(
+
+1758723*
+1Ç Ç(
+
+1758390*
+1Ç Ç(

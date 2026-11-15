@@ -1,0 +1,879 @@
+
+1.0	java-apexJavaFrontend*java2.BÀ
+^
+Yloan_project/loan_app/src/main/java/com/loanproject/loan_app/security/SecurityConfig.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+5
+0com.loanproject.loan_app.security.SecurityConfig9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(19:1)-(195:2)14
+
+simple-name15
+
+SecurityConfig16
+
+Configuration18
+
+unknown19
+
+annotated by20
++
+%Recovered#typeBindingLConfiguration;022
+
+
+uses23
+
+EnableWebSecurity25
+/
+)Recovered#typeBindingLEnableWebSecurity;027
+
+EnableMethodSecurity29
+2
+,Recovered#typeBindingLEnableMethodSecurity;031
+I
+Ccom.loanproject.loan_app.security.SecurityConfig.userDetailsService33
+
+field34
+
+private35
+
+(24:5)-(24:63)36
+
+userDetailsService37
+@
+:com.loanproject.loan_app.security.CustomUserDetailsService39
+
+is type40
+N
+Hcom.loanproject.loan_app.security.SecurityConfig.twoFactorSuccessHandler42
+
+(25:5)-(25:81)43
+
+twoFactorSuccessHandler44
++
+%TwoFactorAuthenticationSuccessHandler46
+E
+?com.loanproject.loan_app.security.SecurityConfig.failureHandler48
+
+(26:5)-(26:69)49
+
+failureHandler50
+(
+"CustomAuthenticationFailureHandler52
+K
+Ecom.loanproject.loan_app.security.SecurityConfig.logoutSuccessHandler54
+
+(27:5)-(27:67)55
+
+logoutSuccessHandler56
+ 
+CustomLogoutSuccessHandler58
+‰
+›com.loanproject.loan_app.security.SecurityConfig#<init>(Lcom/loanproject/loan_app/security/CustomUserDetailsService;LTwoFactorAuthenticationSuccessHandler;LCustomAuthenticationFailureHandler;LCustomLogoutSuccessHandler;)V60
+
+method61
+
+(29:5)-(37:6)62
+
+	has param63
+C
+=Recovered#typeBindingLTwoFactorAuthenticationSuccessHandler;065
+@
+:Recovered#typeBindingLCustomAuthenticationFailureHandler;067
+8
+2Recovered#typeBindingLCustomLogoutSuccessHandler;069
+
+
+references70
+Y
+Scom.loanproject.loan_app.security.SecurityConfig#passwordEncoder()LPasswordEncoder;72
+
+(39:5)-(42:6)73
+
+passwordEncoder74
+
+PasswordEncoder76
+
+returns77
+
+
+Bean79
+"
+Recovered#typeBindingLBean;081
+j
+dcom.loanproject.loan_app.security.SecurityConfig#authenticationProvider()LDaoAuthenticationProvider;83
+
+(44:5)-(51:6)84
+
+authenticationProvider85
+
+DaoAuthenticationProvider87
+7
+1Recovered#typeBindingLDaoAuthenticationProvider;089
+
+calls90
+Ç
+|com.loanproject.loan_app.security.SecurityConfig#authenticationManager(LAuthenticationConfiguration;)LAuthenticationManager;92
+
+(53:5)-(56:6)93
+
+authenticationManager94
+
+AuthenticationManager96
+9
+3Recovered#typeBindingLAuthenticationConfiguration;098
+
+java.lang.Exception100
+h
+acom.loanproject.loan_app.security.SecurityConfig#filterChain(LHttpSecurity;)LSecurityFilterChain;102
+
+(58:5)-(175:6)103
+
+filterChain104
+
+SecurityFilterChain106
++
+$Recovered#typeBindingLHttpSecurity;0108
+à
+Äcom.loanproject.loan_app.security.SecurityConfig#corsConfigurationSource()Lorg/springframework/web/cors/CorsConfigurationSource;110
+
+(177:5)-(194:6)111
+
+corsConfigurationSource112
+;
+4org.springframework.web.cors.CorsConfigurationSource114
+2
++Recovered#typeBindingLorg/springframework;0116
+
+java.util.List118
+r
+kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;120
+
+ARG_0121
+
+http://localhost:*122
+
+ARG_1123
+
+http://127.0.0.1:*124
+
+ARG_2125
+
+https://*.onrender.com126
+
+ARG_3127
+
+http://*.onrender.com128
+ó
+èjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;130
+
+
+GET131
+
+POST132
+
+
+PUT133
+
+DELETE134
+
+ARG_4135
+
+OPTIONS136
+
+ARG_5137
+
+HEAD138
+<
+5java.util.List#of(Ljava/lang/Object;)Ljava/util/List;140
+
+*141
+N
+Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;143
+
+X-CSRF-TOKEN144
+
+
+Set-Cookie145J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jﬂ
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+
+26
+262719
+
+28
+282919
+
+30
+303119
+M
+32G
+323334 *
+1, (>28:5B$
+
+
+11
+35
+
+
+13
+36
+
+
+15
+37
+
+38
+383919
+M
+41G
+414234 *
+19 (P28:5B$
+
+
+11
+35
+
+
+13
+43
+
+
+15
+44
+
+45
+454619
+M
+47G
+474834 *
+16 (D28:5B$
+
+
+11
+35
+
+
+13
+49
+
+
+15
+50
+
+51
+515219
+M
+53G
+535434 *
+1. (B28:5B$
+
+
+11
+35
+
+
+13
+55
+
+
+15
+56
+
+57
+575819
+M
+59G
+596061 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+62
+
+
+15
+16
+
+64
+646519
+
+66
+666719
+
+68
+686919
+M
+71G
+717261 *
+1( ((+28:5B$
+
+
+11
+12
+
+
+13
+73
+
+
+15
+74
+
+75
+757619
+
+78
+787919
+
+80
+808119
+M
+82G
+828361 *
+1-& -(<28:5B$
+
+
+11
+12
+
+
+13
+84
+
+
+15
+85
+
+86
+868719
+
+88
+888919
+M
+91G
+919261 *
+16" 6(728:5B$
+
+
+11
+12
+
+
+13
+93
+
+
+15
+94
+
+95
+959619
+
+97
+979819
+
+99
+9910019
+R
+101K
+10110261 *
+1;  ;(+28:5B&
+
+
+11
+12
+
+13
+103
+
+15
+104
+
+105
+10510619
+
+107
+10710819
+T
+109M
+10911061 *
+1≤A ≤(X28:5B&
+
+
+11
+12
+
+13
+111
+
+15
+112
+
+113
+11311419
+
+115
+11511619
+
+117
+11711819
+
+119
+11912061
+
+129
+12913061
+
+139
+13914061
+
+142
+14214361rÈ
+
+81720*
+1 (
+
+82123*
+1 (
+
+82420*
+1 (
+
+82623*
+1 (
+
+82820*
+1 (-
+
+83023*
+1 (
+
+323840*
+1 (+
+
+323823*
+1 (+
+
+323823*
+1, (>
+
+414540*
+1 (8
+
+414523*
+1 (8
+
+414523*
+19 (P
+
+475140*
+1 (5
+
+475123*
+1 (5
+
+475123*
+16 (D
+
+535740*
+1 (-
+
+535723*
+1 (-
+
+535723*
+1. (B
+
+593863*
+1 (3
+
+596463*
+1 (@
+
+596663*
+1 (=
+
+596863*
+1   (5
+
+593840*
+14 (F
+
+593823*
+1 (3
+
+596440*
+1A (X
+
+596423*
+1 (@
+
+596640*
+1> (L
+
+596623*
+1 (=
+
+596840*
+1 6  (J
+
+596823*
+1   (5
+
+59823*
+1!	 !(
+
+59870*
+1!	 !(
+
+593823*
+1! !( 
+
+593270*
+1! !( 
+
+59823*
+1"	 "(
+
+59870*
+1"	 "(
+
+594523*
+1" "(%
+
+594170*
+1" "(%
+
+59823*
+1#	 #(
+
+59870*
+1#	 #(
+
+595123*
+1# #(
+
+594770*
+1# #(
+
+59823*
+1$	 $(
+
+59870*
+1$	 $(
+
+595723*
+1$ $("
+
+595370*
+1$ $("
+
+717577*
+1( ((
+
+717820*
+1' '(
+
+
+718023*
+1' '(
+
+
+717523*
+1( ((
+
+828677*
+1- -(%
+
+827820*
+1, ,(
+
+
+828023*
+1, ,(
+
+
+828623*
+1- -(%
+
+828840*
+1.# .(/
+
+828823*
+1.	 .("
+
+823823*
+1/, /(>
+
+823270*
+1/, /(>
+
+827577*
+10) 0(8
+
+82870*
+10) 0(8
+
+827190*
+10) 0(8
+
+919577*
+16 6(!
+
+919763*
+168 6(S
+
+917820*
+15 5(
+
+
+918023*
+15 5(
+
+
+919523*
+16 6(!
+
+919740*
+16T 6(^
+
+919723*
+168 6(S
+
+919923*
+16g 6(p
+
+10110577*
+1; ;(
+
+10110763*
+1;, ;(8
+
+1017820*
+1: :(
+
+
+1018023*
+1: :(
+
+
+10110523*
+1; ;(
+
+10110740*
+1;9 ;(=
+
+10110723*
+1;, ;(8
+
+1019923*
+1;F ;(O
+
+1018677*
+1?% ?(;
+
+101870*
+1?% ?(;
+
+1018290*
+1?% ?(;
+
+10911377*
+1≤ ≤(@
+
+1097820*
+1± ±(
+
+
+1098023*
+1± ±(
+
+
+10911523*
+1≤ ≤(
+
+10911523*
+1≤  ≤(#
+
+10911523*
+1≤$ ≤((
+
+10911323*
+1≤) ≤(@
+
+10911540*
+1≥8 ≥(E
+
+10911523*
+1≥ ≥(
+
+10911523*
+1≥ ≥( 
+
+10911523*
+1≥! ≥(%
+
+10911523*
+1≥& ≥(7
+
+10911523*
+1≥P ≥(_
+
+10911523*
+1≥` ≥(c
+
+10911523*
+1≥d ≥(h
+
+10911777*
+1¥0 ¥(A
+
+10911770*
+1¥0 ¥(A
+W
+10911990*
+1¥? ¥(A28
+
+121
+122
+
+123
+124
+
+125
+126
+
+127
+128
+
+10911777*
+1∫) ∫(:
+
+10911770*
+1∫) ∫(:
+s
+10912990*
+1∫8 ∫(:2T
+
+121
+131
+
+123
+132
+
+125
+133
+
+127
+134
+
+135
+136
+
+137
+138
+
+10911777*
+1ª) ª(:
+
+10911770*
+1ª) ª(:
+-
+10913990*
+1ª8 ª(:2
+
+121
+141
+
+10911777*
+1º) º(:
+
+10911770*
+1º) º(:
+;
+10914290*
+1º8 º(:2
+
+121
+144
+
+123
+145
+
+10911540*
+1øF ø(L
+
+10911523*
+1ø ø(
+
+10911523*
+1ø ø( 
+
+10911523*
+1ø! ø(%
+
+10911523*
+1ø& ø(E
+
+10911523*
+1øW ø(f
+
+10911523*
+1øg ø(j
+
+10911523*
+1øk ø(o

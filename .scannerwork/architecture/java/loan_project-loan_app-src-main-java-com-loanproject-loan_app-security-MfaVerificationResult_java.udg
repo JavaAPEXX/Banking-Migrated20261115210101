@@ -1,0 +1,602 @@
+
+1.0	java-apexJavaFrontend*java2.B´
+e
+`loan_project/loan_app/src/main/java/com/loanproject/loan_app/security/MfaVerificationResult.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+<
+7com.loanproject.loan_app.security.MfaVerificationResult9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(5:1)-(48:2)14
+
+simple-name15
+
+MfaVerificationResult16
+E
+?com.loanproject.loan_app.security.MfaVerificationResult.success18
+
+field19
+
+private20
+
+(7:5)-(7:35)21
+
+success22
+B
+<com.loanproject.loan_app.security.MfaVerificationResult.user24
+
+(8:5)-(8:29)25
+
+
+user26
+
+
+User28
+
+unknown29
+
+is type30
+
+
+uses31
+G
+Acom.loanproject.loan_app.security.MfaVerificationResult.errorCode33
+
+(9:5)-(9:36)34
+
+	errorCode35
+
+java.lang.String37
+J
+Dcom.loanproject.loan_app.security.MfaVerificationResult.errorMessage39
+
+(10:5)-(10:39)40
+
+errorMessage41
+O
+Icom.loanproject.loan_app.security.MfaVerificationResult.attemptsRemaining43
+
+(11:5)-(11:41)44
+
+attemptsRemaining45
+s
+mcom.loanproject.loan_app.security.MfaVerificationResult#<init>(ZLUser;Ljava/lang/String;Ljava/lang/String;I)V47
+
+method48
+
+(13:5)-(19:6)49
+"
+Recovered#typeBindingLUser;051
+
+	has param52
+
+
+references53
+‡
+€com.loanproject.loan_app.security.MfaVerificationResult#success(LUser;)Lcom/loanproject/loan_app/security/MfaVerificationResult;55
+
+(21:5)-(23:6)56
+
+returns57
+
+calls58
+
+ARG_059
+
+
+true60
+
+ARG_461
+
+062
+¦
+Ÿcom.loanproject.loan_app.security.MfaVerificationResult#failure(Ljava/lang/String;Ljava/lang/String;I)Lcom/loanproject/loan_app/security/MfaVerificationResult;64
+
+(25:5)-(27:6)65
+
+failure66
+
+false67
+J
+Dcom.loanproject.loan_app.security.MfaVerificationResult#isSuccess()Z69
+
+(29:5)-(31:6)70
+
+	isSuccess71
+M
+Gcom.loanproject.loan_app.security.MfaVerificationResult#getUser()LUser;73
+
+(33:5)-(35:6)74
+
+getUser75
+^
+Xcom.loanproject.loan_app.security.MfaVerificationResult#getErrorCode()Ljava/lang/String;77
+
+(37:5)-(39:6)78
+
+getErrorCode79
+a
+[com.loanproject.loan_app.security.MfaVerificationResult#getErrorMessage()Ljava/lang/String;81
+
+(41:5)-(43:6)82
+
+getErrorMessage83
+U
+Ocom.loanproject.loan_app.security.MfaVerificationResult#getAttemptsRemaining()I85
+
+(45:5)-(47:6)86
+
+getAttemptsRemaining87J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jˆ	
+G
+8B
+8910 *
+1 (#:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+17G
+171819 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+23G
+232419 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+
+27
+272829
+M
+32G
+323319 *
+1	 	(#28:5B$
+
+
+11
+20
+
+
+13
+34
+
+
+15
+35
+
+36
+363729
+M
+38G
+383919 *
+1
+ 
+(&28:5B$
+
+
+11
+20
+
+
+13
+40
+
+
+15
+41
+M
+42G
+424319 *
+1 ((28:5B$
+
+
+11
+20
+
+
+13
+44
+
+
+15
+45
+M
+46G
+464748 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+49
+
+
+15
+16
+
+50
+505129
+M
+54G
+545548 *
+1) (028:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+22
+M
+63G
+636448 *
+1) (028:5B$
+
+
+11
+12
+
+
+13
+65
+
+
+15
+66
+M
+68G
+686948 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+70
+
+
+15
+71
+M
+72G
+727348 *
+1! !(28:5B$
+
+
+11
+12
+
+
+13
+74
+
+
+15
+75
+M
+76G
+767748 *
+1% %(28:5B$
+
+
+11
+12
+
+
+13
+78
+
+
+15
+79
+M
+80G
+808148 *
+1) )("28:5B$
+
+
+11
+12
+
+
+13
+82
+
+
+15
+83
+M
+84G
+848548 *
+1- -($28:5B$
+
+
+11
+12
+
+
+13
+86
+
+
+15
+87ró
+
+232730*
+1 (
+
+232731*
+1 (
+
+232731*
+1 (
+
+323630*
+1	 	(
+
+323631*
+1	 	(
+
+323631*
+1	 	(#
+
+383630*
+1
+ 
+(
+
+383631*
+1
+ 
+(
+
+383631*
+1
+ 
+(&
+
+465052*
+14 (8
+
+463652*
+1? (E
+
+463652*
+1Q (W
+
+465030*
+19 (=
+
+465031*
+14 (8
+
+463630*
+1F (O
+
+463631*
+1? (E
+
+463630*
+1X (d
+
+463631*
+1Q (W
+
+46831*
+1	 (
+
+46853*
+1	 (
+
+461753*
+1 (
+
+46831*
+1	 (
+
+46853*
+1	 (
+
+462731*
+1 (
+
+462353*
+1 (
+
+46831*
+1	 (
+
+46853*
+1	 (
+
+463631*
+1 (
+
+463253*
+1 (
+
+46831*
+1	 (
+
+46853*
+1	 (
+
+463631*
+1 (
+
+463853*
+1 (
+
+46831*
+1	 (
+
+46853*
+1	 (
+
+464253*
+1 (
+
+54857*
+1 ((
+
+545052*
+11 (5
+
+54831*
+1 ((
+
+545030*
+16 (:
+
+545031*
+11 (5
+2
+54858*
+1 ()2
+
+
+59
+60
+
+
+61
+62
+
+63857*
+1 ((
+
+633652*
+11 (7
+
+633652*
+1C (I
+
+63831*
+1 ((
+
+633630*
+18 (A
+
+633631*
+11 (7
+
+633630*
+1J (V
+
+633631*
+1C (I
+&
+63858*
+1 ()2
+
+
+59
+67
+
+681753*
+1 (
+
+722757*
+1! !(
+
+722731*
+1! !(
+
+722731*
+1" "(
+
+722353*
+1" "(
+
+763657*
+1% %(
+
+763631*
+1% %(
+
+763631*
+1& &(
+
+763253*
+1& &(
+
+803657*
+1) )(
+
+803631*
+1) )(
+
+803631*
+1* *(
+
+803853*
+1* *(
+
+844253*
+1. .(!

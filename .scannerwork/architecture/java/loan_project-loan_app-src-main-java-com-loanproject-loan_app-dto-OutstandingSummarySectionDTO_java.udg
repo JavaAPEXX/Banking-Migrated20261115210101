@@ -1,0 +1,1000 @@
+
+1.0	java-apexJavaFrontend*java2.B¡ 
+g
+bloan_project/loan_app/src/main/java/com/loanproject/loan_app/dto/OutstandingSummarySectionDTO.java2
+	
+type3
+	
+MAIN4
+
+package6
+!
+com.loanproject.loan_app.dto7
+>
+9com.loanproject.loan_app.dto.OutstandingSummarySectionDTO9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(6:1)-(87:2)14
+
+simple-name15
+"
+OutstandingSummarySectionDTO16
+
+java.io.Serializable18
+
+unknown19
+
+
+implements20
+
+
+uses21
+T
+Ncom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.principalOutstanding23
+
+field24
+
+private25
+
+(8:5)-(8:45)26
+
+principalOutstanding27
+
+java.math.BigDecimal29
+
+is type30
+O
+Icom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.accruedInterest32
+
+(9:5)-(9:40)33
+
+accruedInterest34
+T
+Ncom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.penaltiesAndLateFees36
+
+(10:5)-(10:45)37
+
+penaltiesAndLateFees38
+L
+Fcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.totalPayable40
+
+(11:5)-(11:37)41
+
+totalPayable42
+Q
+Kcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.foreclosureAmount44
+
+(12:5)-(12:42)45
+
+foreclosureAmount46
+T
+Ncom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.foreclosureAvailable48
+
+(13:5)-(13:42)49
+
+foreclosureAvailable50
+V
+Pcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO.foreclosureExplanation52
+
+(14:5)-(14:43)53
+
+foreclosureExplanation54
+
+java.lang.String56
+I
+Ccom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#<init>()V58
+
+method59
+
+(16:5)-(17:6)60
+3
+-jdk.internal.vm.annotation.IntrinsicCandidate61
+Ë
+Äcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#<init>(Ljava/math/BigDecimal;Ljava/math/BigDecimal;Ljava/math/BigDecimal;Ljava/math/BigDecimal;Ljava/math/BigDecimal;ZLjava/lang/String;)V63
+
+(19:5)-(30:6)64
+
+	has param65
+
+
+references66
+o
+icom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getPrincipalOutstanding()Ljava/math/BigDecimal;68
+
+(32:5)-(34:6)69
+
+getPrincipalOutstanding70
+
+returns71
+p
+jcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setPrincipalOutstanding(Ljava/math/BigDecimal;)V73
+
+(36:5)-(38:6)74
+
+setPrincipalOutstanding75
+j
+dcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getAccruedInterest()Ljava/math/BigDecimal;77
+
+(40:5)-(42:6)78
+
+getAccruedInterest79
+k
+ecom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setAccruedInterest(Ljava/math/BigDecimal;)V81
+
+(44:5)-(46:6)82
+
+setAccruedInterest83
+o
+icom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getPenaltiesAndLateFees()Ljava/math/BigDecimal;85
+
+(48:5)-(50:6)86
+
+getPenaltiesAndLateFees87
+p
+jcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setPenaltiesAndLateFees(Ljava/math/BigDecimal;)V89
+
+(52:5)-(54:6)90
+
+setPenaltiesAndLateFees91
+g
+acom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getTotalPayable()Ljava/math/BigDecimal;93
+
+(56:5)-(58:6)94
+
+getTotalPayable95
+h
+bcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setTotalPayable(Ljava/math/BigDecimal;)V97
+
+(60:5)-(62:6)98
+
+setTotalPayable99
+m
+fcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getForeclosureAmount()Ljava/math/BigDecimal;101
+
+(64:5)-(66:6)102
+
+getForeclosureAmount103
+n
+gcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setForeclosureAmount(Ljava/math/BigDecimal;)V105
+
+(68:5)-(70:6)106
+
+setForeclosureAmount107
+Z
+Scom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#isForeclosureAvailable()Z109
+
+(72:5)-(74:6)110
+
+isForeclosureAvailable111
+\
+Ucom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setForeclosureAvailable(Z)V113
+
+(76:5)-(78:6)114
+
+setForeclosureAvailable115
+n
+gcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#getForeclosureExplanation()Ljava/lang/String;117
+
+(80:5)-(82:6)118
+ 
+getForeclosureExplanation119
+o
+hcom.loanproject.loan_app.dto.OutstandingSummarySectionDTO#setForeclosureExplanation(Ljava/lang/String;)V121
+
+(84:5)-(86:6)122
+ 
+setForeclosureExplanation123J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÄ
+G
+8B
+8910 *
+1 (*:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+M
+22G
+222324 *
+1 (,28:5B$
+
+
+11
+25
+
+
+13
+26
+
+
+15
+27
+
+28
+282919
+M
+31G
+313224 *
+1	 	('28:5B$
+
+
+11
+25
+
+
+13
+33
+
+
+15
+34
+M
+35G
+353624 *
+1
+ 
+(,28:5B$
+
+
+11
+25
+
+
+13
+37
+
+
+15
+38
+M
+39G
+394024 *
+1 ($28:5B$
+
+
+11
+25
+
+
+13
+41
+
+
+15
+42
+M
+43G
+434424 *
+1 ()28:5B$
+
+
+11
+25
+
+
+13
+45
+
+
+15
+46
+M
+47G
+474824 *
+1 ()28:5B$
+
+
+11
+25
+
+
+13
+49
+
+
+15
+50
+M
+51G
+515224 *
+1 (*28:5B$
+
+
+11
+25
+
+
+13
+53
+
+
+15
+54
+
+55
+555619
+U
+57O
+575859 *
+1 ((28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+16R
+
+61
+M
+62G
+626359 *
+1 ((28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+16
+M
+67G
+676859 *
+1   (.28:5B$
+
+
+11
+12
+
+
+13
+69
+
+
+15
+70
+M
+72G
+727359 *
+1$ $((28:5B$
+
+
+11
+12
+
+
+13
+74
+
+
+15
+75
+M
+76G
+767759 *
+1( (()28:5B$
+
+
+11
+12
+
+
+13
+78
+
+
+15
+79
+M
+80G
+808159 *
+1, ,(#28:5B$
+
+
+11
+12
+
+
+13
+82
+
+
+15
+83
+M
+84G
+848559 *
+10 0(.28:5B$
+
+
+11
+12
+
+
+13
+86
+
+
+15
+87
+M
+88G
+888959 *
+14 4((28:5B$
+
+
+11
+12
+
+
+13
+90
+
+
+15
+91
+M
+92G
+929359 *
+18 8(&28:5B$
+
+
+11
+12
+
+
+13
+94
+
+
+15
+95
+M
+96G
+969759 *
+1< <( 28:5B$
+
+
+11
+12
+
+
+13
+98
+
+
+15
+99
+R
+100K
+10010159 *
+1@ @(+28:5B&
+
+
+11
+12
+
+13
+102
+
+15
+103
+R
+104K
+10410559 *
+1D D(%28:5B&
+
+
+11
+12
+
+13
+106
+
+15
+107
+R
+108K
+10810959 *
+1H H(*28:5B&
+
+
+11
+12
+
+13
+110
+
+15
+111
+R
+112K
+11211359 *
+1L L((28:5B&
+
+
+11
+12
+
+13
+114
+
+15
+115
+R
+116K
+11611759 *
+1P P(,28:5B&
+
+
+11
+12
+
+13
+118
+
+15
+119
+R
+120K
+12012159 *
+1T T(*28:5B&
+
+
+11
+12
+
+13
+122
+
+15
+123r¹
+
+81720*
+16 (B
+
+81721*
+16 (B
+
+222830*
+1 (
+
+222821*
+1 (
+
+222821*
+1 (,
+
+312830*
+1	 	(
+
+312821*
+1	 	(
+
+312821*
+1	 	('
+
+352830*
+1
+ 
+(
+
+352821*
+1
+ 
+(
+
+352821*
+1
+ 
+(,
+
+392830*
+1 (
+
+392821*
+1 (
+
+392821*
+1 ($
+
+432830*
+1 (
+
+432821*
+1 (
+
+432821*
+1 ()
+
+515530*
+1 (
+
+515521*
+1 (
+
+515521*
+1 (*
+
+622865*
+1) (3
+
+622865*
+1J (T
+
+622865*
+1( (2
+
+622865*
+1I (S
+
+622865*
+1( (2
+
+625565*
+1( (.
+
+622830*
+14 (H
+
+622821*
+1) (3
+
+622830*
+1U (d
+
+622821*
+1J (T
+
+622830*
+13 (G
+
+622821*
+1( (2
+
+622830*
+1T (`
+
+622821*
+1I (S
+
+622830*
+13 (D
+
+622821*
+1( (2
+
+625530*
+1/ (E
+
+625521*
+1( (.
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+622821*
+1 ("
+
+622266*
+1 ("
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+622821*
+1 (
+
+623166*
+1 (
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+622821*
+1 ("
+
+623566*
+1 ("
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+622821*
+1 (
+
+623966*
+1 (
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+622821*
+1 (
+
+624366*
+1 (
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+624766*
+1 ("
+
+62821*
+1	 (
+
+62866*
+1	 (
+
+625521*
+1 ($
+
+625166*
+1 ($
+
+672871*
+1   (
+
+672821*
+1   (
+
+672821*
+1! !($
+
+672266*
+1! !($
+
+722865*
+1$) $(3
+
+722830*
+1$4 $(H
+
+722821*
+1$) $(3
+
+72821*
+1%	 %(
+
+72866*
+1%	 %(
+
+722821*
+1% %("
+
+722266*
+1% %("
+
+762871*
+1( ((
+
+762821*
+1( ((
+
+762821*
+1) )(
+
+763166*
+1) )(
+
+802865*
+1,$ ,(.
+
+802830*
+1,/ ,(>
+
+802821*
+1,$ ,(.
+
+80821*
+1-	 -(
+
+80866*
+1-	 -(
+
+802821*
+1- -(
+
+803166*
+1- -(
+
+842871*
+10 0(
+
+842821*
+10 0(
+
+842821*
+11 1($
+
+843566*
+11 1($
+
+882865*
+14) 4(3
+
+882830*
+144 4(H
+
+882821*
+14) 4(3
+
+88821*
+15	 5(
+
+88866*
+15	 5(
+
+882821*
+15 5("
+
+883566*
+15 5("
+
+922871*
+18 8(
+
+922821*
+18 8(
+
+922821*
+19 9(
+
+923966*
+19 9(
+
+962865*
+1<! <(+
+
+962830*
+1<, <(8
+
+962821*
+1<! <(+
+
+96821*
+1=	 =(
+
+96866*
+1=	 =(
+
+962821*
+1= =(
+
+963966*
+1= =(
+
+1002871*
+1@ @(
+
+1002821*
+1@ @(
+
+1002821*
+1A A(!
+
+1004366*
+1A A(!
+
+1042865*
+1D& D(0
+
+1042830*
+1D1 D(B
+
+1042821*
+1D& D(0
+
+104821*
+1E	 E(
+
+104866*
+1E	 E(
+
+1042821*
+1E E(
+
+1044366*
+1E E(
+
+1084766*
+1I I($
+
+112821*
+1M	 M(
+
+112866*
+1M	 M(
+
+1124766*
+1M M("
+
+1165571*
+1P P(
+
+1165521*
+1P P(
+
+1165521*
+1Q Q(&
+
+1165166*
+1Q Q(&
+
+1205565*
+1T+ T(1
+
+1205530*
+1T2 T(H
+
+1205521*
+1T+ T(1
+
+120821*
+1U	 U(
+
+120866*
+1U	 U(
+
+1205521*
+1U U($
+
+1205166*
+1U U($

@@ -1,0 +1,625 @@
+
+1.0	java-apexJavaFrontend*java2.B√
+j
+eloan_project/loan_app/src/main/java/com/loanproject/loan_app/security/LocalStaffIdentityProvider.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+A
+<com.loanproject.loan_app.security.LocalStaffIdentityProvider9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(15:1)-(62:2)14
+
+simple-name15
+ 
+LocalStaffIdentityProvider16
+2
+,Recovered#typeBindingLBankIdentityProvider;018
+
+unknown19
+
+
+implements20
+
+	Component22
+
+annotated by23
+'
+!Recovered#typeBindingLComponent;025
+
+
+uses26
+F
+@com.loanproject.loan_app.security.LocalStaffIdentityProvider.log28
+
+field29
+
+private30
+
+(18:5)-(18:97)31
+	
+log32
+
+Logger34
+
+is type35
+Q
+Kcom.loanproject.loan_app.security.LocalStaffIdentityProvider.userRepository37
+
+(20:5)-(20:49)38
+
+userRepository39
+
+UserRepository41
+R
+Lcom.loanproject.loan_app.security.LocalStaffIdentityProvider.passwordEncoder43
+
+(21:5)-(21:51)44
+
+passwordEncoder45
+
+PasswordEncoder47
+W
+Qcom.loanproject.loan_app.security.LocalStaffIdentityProvider.productionConfigured49
+
+(23:5)-(24:42)50
+
+productionConfigured51
+
+Value53
+#
+Recovered#typeBindingLValue;055
+m
+gcom.loanproject.loan_app.security.LocalStaffIdentityProvider#<init>(LUserRepository;LPasswordEncoder;)V57
+
+method58
+
+(26:5)-(29:6)59
+,
+&Recovered#typeBindingLUserRepository;061
+
+	has param62
+-
+'Recovered#typeBindingLPasswordEncoder;064
+
+
+references65
+d
+^com.loanproject.loan_app.security.LocalStaffIdentityProvider#isProductionProviderConfigured()Z67
+
+(31:5)-(34:6)68
+$
+isProductionProviderConfigured69
+
+java.lang.Override70
+f
+`com.loanproject.loan_app.security.LocalStaffIdentityProvider#getProviderName()Ljava/lang/String;73
+
+(36:5)-(39:6)74
+
+getProviderName75
+
+java.lang.String77
+
+returns78
+è
+àcom.loanproject.loan_app.security.LocalStaffIdentityProvider#authenticateStaff(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Optional;80
+
+(41:5)-(61:6)81
+
+authenticateStaff82
+
+java.util.Optional84
+(
+"com.loanproject.loan_app.bean.User86
+#
+java.util.Optional#isEmpty()Z88
+
+calls89
+4
+.java.util.Optional#empty()Ljava/util/Optional;91
+0
+*java.util.Optional#get()Ljava/lang/Object;93
+
+UserType95
+@
+:com.loanproject.loan_app.bean.User#getUserType()LUserType;97
+H
+Bcom.loanproject.loan_app.bean.User#getPassword()Ljava/lang/String;99
+D
+=java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;101J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÄ	
+G
+8B
+8910 *
+1 ((:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+M
+27G
+272829 *
+1! ($28:5B$
+
+
+11
+30
+
+
+13
+31
+
+
+15
+32
+
+33
+333419
+M
+36G
+363729 *
+1" (028:5B$
+
+
+11
+30
+
+
+13
+38
+
+
+15
+39
+
+40
+404119
+M
+42G
+424329 *
+1# (228:5B$
+
+
+11
+30
+
+
+13
+44
+
+
+15
+45
+
+46
+464719
+M
+48G
+484929 *
+1 ()28:5B$
+
+
+11
+30
+
+
+13
+50
+
+
+15
+51
+
+52
+525319
+
+54
+545519
+M
+56G
+565758 *
+1 (&28:5B$
+
+
+11
+12
+
+
+13
+59
+
+
+15
+16
+
+60
+606119
+
+63
+636419
+U
+66O
+666758 *
+1   (228:5B$
+
+
+11
+12
+
+
+13
+68
+
+
+15
+69R
+
+70
+
+71
+717019
+U
+72O
+727358 *
+1% %("28:5B$
+
+
+11
+12
+
+
+13
+74
+
+
+15
+75R
+
+70
+
+76
+767719
+U
+79O
+798058 *
+1* *(,28:5B$
+
+
+11
+12
+
+
+13
+81
+
+
+15
+82R
+
+70
+
+83
+838419
+
+85
+858619
+
+87
+878858
+
+90
+909158
+
+92
+929358
+
+94
+949519
+
+96
+969758
+
+98
+989958
+
+100
+10010158rä
+
+81720*
+14 (H
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+14 (H
+
+273335*
+1 ( 
+
+273326*
+1 ( 
+
+273326*
+1! ($
+
+27826*
+1? (Y
+
+364035*
+1 (!
+
+364026*
+1 (!
+
+364026*
+1" (0
+
+424635*
+1 ("
+
+424626*
+1 ("
+
+424626*
+1# (2
+
+485223*
+1 (3
+
+485426*
+1 (
+
+566062*
+1' (5
+
+566362*
+1F (U
+
+566035*
+16 (D
+
+566026*
+1' (5
+
+566335*
+1V (e
+
+566326*
+1F (U
+
+56826*
+1	 (
+
+56865*
+1	 (
+
+564026*
+1 (
+
+563665*
+1 (
+
+56826*
+1	 (
+
+56865*
+1	 (
+
+564626*
+1 (
+
+564265*
+1 (
+
+667123*
+1 (
+
+667126*
+1 (
+
+664865*
+1! !($
+
+727678*
+1% %(
+
+727123*
+1$ $(
+
+727126*
+1$ $(
+
+727626*
+1% %(
+
+724865*
+1& &($
+
+798378*
+1* *(
+
+797662*
+1*- *(3
+
+797662*
+1*D *(J
+
+797123*
+1) )(
+
+797126*
+1) )(
+
+798326*
+1* *(
+
+798526*
+1* *(
+
+797635*
+1*4 *(B
+
+797626*
+1*- *(3
+
+797635*
+1*K *(V
+
+797626*
+1*D *(J
+
+798335*
+1+ +($
+
+798326*
+1+	 +(
+
+798526*
+1+ +(
+
+793665*
+1+' +(5
+
+794026*
+1+' +(5
+
+793665*
+1+' +(5
+
+798365*
+1, ,(!
+
+798789*
+1, ,(!
+
+798378*
+1- -("
+
+798365*
+1- -("
+
+799089*
+1- -("
+
+798535*
+10 0(
+
+798526*
+10	 0(
+
+798578*
+10 0(%
+
+798365*
+10 0(%
+
+799289*
+10" 0(%
+
+799478*
+13 3(
+
+798565*
+13 3(
+
+799689*
+13 3(
+
+792765*
+14 4(
+
+793326*
+14 4(
+
+792765*
+14 4(
+
+798378*
+15 5("
+
+798365*
+15 5("
+
+799089*
+15 5("
+
+794265*
+18 8(
+
+794626*
+18 8(
+
+794265*
+18 8(
+
+797678*
+182 8(B
+
+798565*
+182 8(B
+
+799889*
+187 8(B
+
+798378*
+19 9(
+
+798365*
+19 9(
+
+7910089*
+19 9(
+
+798378*
+1< <(
+
+798365*
+1< <(
+
+799089*
+1< <(

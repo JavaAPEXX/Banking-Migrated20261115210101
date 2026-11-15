@@ -1,0 +1,361 @@
+
+1.0	java-apexJavaFrontend*java2.Bš
+r
+mloan_project/loan_app/src/main/java/com/loanproject/loan_app/security/CustomAuthenticationFailureHandler.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+I
+Dcom.loanproject.loan_app.security.CustomAuthenticationFailureHandler9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(15:1)-(41:2)14
+
+simple-name15
+(
+"CustomAuthenticationFailureHandler16
+:
+4Recovered#typeBindingLAuthenticationFailureHandler;018
+
+unknown19
+
+
+implements20
+
+	Component22
+
+annotated by23
+'
+!Recovered#typeBindingLComponent;025
+
+
+uses26
+N
+Hcom.loanproject.loan_app.security.CustomAuthenticationFailureHandler.log28
+
+field29
+
+private30
+
+(18:5)-(18:105)31
+	
+log32
+
+Logger34
+
+is type35
+^
+Xcom.loanproject.loan_app.security.CustomAuthenticationFailureHandler.loginAttemptService37
+
+(20:5)-(20:59)38
+
+loginAttemptService39
+
+LoginAttemptService41
+i
+ccom.loanproject.loan_app.security.CustomAuthenticationFailureHandler#<init>(LLoginAttemptService;)V43
+
+method44
+
+(22:5)-(24:6)45
+1
++Recovered#typeBindingLLoginAttemptService;047
+
+	has param48
+
+
+references49
+¨
+¡com.loanproject.loan_app.security.CustomAuthenticationFailureHandler#onAuthenticationFailure(LHttpServletRequest;LHttpServletResponse;LAuthenticationException;)V51
+
+(26:5)-(40:6)52
+
+onAuthenticationFailure53
+
+java.lang.Override54
+0
+*Recovered#typeBindingLHttpServletRequest;056
+1
++Recovered#typeBindingLHttpServletResponse;058
+5
+/Recovered#typeBindingLAuthenticationException;060
+
+java.io.IOException63
+
+ServletException65
+
+java.lang.String67
+!
+java.lang.String#isBlank()Z69
+
+calls70J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j¥
+G
+8B
+8910 *
+1 (0:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+M
+27G
+272829 *
+1! ($28:5B$
+
+
+11
+30
+
+
+13
+31
+
+
+15
+32
+
+33
+333419
+M
+36G
+363729 *
+1' (:28:5B$
+
+
+11
+30
+
+
+13
+38
+
+
+15
+39
+
+40
+404119
+M
+42G
+424344 *
+1 (.28:5B$
+
+
+11
+12
+
+
+13
+45
+
+
+15
+16
+
+46
+464719
+U
+50O
+505144 *
+1 ((28:5B$
+
+
+11
+12
+
+
+13
+52
+
+
+15
+53R
+
+54
+
+55
+555619
+
+57
+575819
+
+59
+596019
+
+61
+615419
+
+62
+626319
+
+64
+646519
+
+66
+666719
+
+68
+686944rÌ
+
+81720*
+1< (X
+
+82123*
+1 (
+
+82426*
+1 (
+
+81726*
+1< (X
+
+273335*
+1 ( 
+
+273326*
+1 ( 
+
+273326*
+1! ($
+
+27826*
+1? (a
+
+364035*
+1 (&
+
+364026*
+1 (&
+
+364026*
+1' (:
+
+424648*
+1/ (B
+
+424635*
+1C (V
+
+424626*
+1/ (B
+
+42826*
+1	 (
+
+42849*
+1	 (
+
+424026*
+1 (!
+
+423649*
+1 (!
+
+505548*
+1) (;
+
+505748*
+1) (<
+
+505948*
+1) (@
+
+506123*
+1 (
+
+506126*
+1 (
+
+505535*
+1< (C
+
+505526*
+1) (;
+
+505735*
+1= (E
+
+505726*
+1) (<
+
+505935*
+1A (J
+
+505926*
+1) (@
+
+506226*
+1S (^
+
+506426*
+1` (p
+
+506635*
+1 (
+
+506626*
+1	 (
+
+506649*
+1! (1
+
+506870*
+1* (1
+
+502749*
+1#	 #(
+
+503326*
+1#	 #(
+
+502749*
+1#	 #(
+
+503649*
+1$	 $(
+
+504026*
+1$	 $(
+
+503649*
+1$	 $(

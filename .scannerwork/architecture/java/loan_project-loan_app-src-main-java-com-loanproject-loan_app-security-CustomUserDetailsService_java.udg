@@ -1,0 +1,341 @@
+
+1.0	java-apexJavaFrontend*java2.BÄ
+h
+cloan_project/loan_app/src/main/java/com/loanproject/loan_app/security/CustomUserDetailsService.java2
+	
+type3
+	
+MAIN4
+
+package6
+&
+!com.loanproject.loan_app.security7
+?
+:com.loanproject.loan_app.security.CustomUserDetailsService9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(11:1)-(31:2)14
+
+simple-name15
+
+CustomUserDetailsService16
+0
+*Recovered#typeBindingLUserDetailsService;018
+
+unknown19
+
+
+implements20
+
+Service22
+
+annotated by23
+%
+Recovered#typeBindingLService;025
+
+
+uses26
+O
+Icom.loanproject.loan_app.security.CustomUserDetailsService.userRepository28
+
+field29
+
+private30
+
+(14:5)-(14:49)31
+
+userRepository32
+8
+2com.loanproject.loan_app.repository.UserRepository34
+
+is type35
+~
+xcom.loanproject.loan_app.security.CustomUserDetailsService#<init>(Lcom/loanproject/loan_app/repository/UserRepository;)V37
+
+method38
+
+(16:5)-(18:6)39
+
+	has param40
+
+
+references41
+t
+ncom.loanproject.loan_app.security.CustomUserDetailsService#loadUserByUsername(Ljava/lang/String;)LUserDetails;43
+
+(20:5)-(30:6)44
+
+loadUserByUsername45
+
+java.lang.Override46
+
+UserDetails48
+
+returns49
+
+java.lang.String51
+
+UsernameNotFoundException54
+!
+java.lang.String#isBlank()Z56
+
+calls57
+"
+Recovered#typeBindingLUser;059
+
+java.util.Optional61
+l
+fcom.loanproject.loan_app.repository.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;63
+6
+0java.lang.String#toLowerCase()Ljava/lang/String;65
+
+RECV_066
+
+
+trim67
+/
+)java.lang.String#trim()Ljava/lang/String;69J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÖ
+G
+8B
+8910 *
+1 (&:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219
+
+24
+242519
+M
+27G
+272829 *
+1" (028:5B$
+
+
+11
+30
+
+
+13
+31
+
+
+15
+32
+
+33
+333419
+M
+36G
+363738 *
+1 ($28:5B$
+
+
+11
+12
+
+
+13
+39
+
+
+15
+16
+U
+42O
+424338 *
+1 (*28:5B$
+
+
+11
+12
+
+
+13
+44
+
+
+15
+45R
+
+46
+
+47
+474819
+
+50
+505119
+
+52
+524619
+
+53
+535419
+
+55
+555638
+
+58
+585919
+
+60
+606119
+
+62
+626338
+
+64
+646538
+
+68
+686938rŠ
+
+81720*
+12 (D
+
+82123*
+1 (	
+
+82426*
+1 (	
+
+81726*
+12 (D
+
+273335*
+1 (!
+
+273326*
+1 (!
+
+273326*
+1" (0
+
+363340*
+1% (3
+
+363335*
+14 (B
+
+363326*
+1% (3
+
+36826*
+1	 (
+
+36841*
+1	 (
+
+363326*
+1 (
+
+362741*
+1 (
+
+424749*
+1 (
+
+425040*
+1+ (1
+
+425223*
+1 (
+
+425226*
+1 (
+
+424726*
+1 (
+
+425035*
+12 (:
+
+425026*
+1+ (1
+
+425326*
+1C (\
+
+425041*
+1! (1
+
+425557*
+1* (1
+
+425835*
+1 (
+
+425826*
+1	 (
+
+426049*
+1 (/
+
+423341*
+1 (/
+
+426257*
+1$ (/
+
+422741*
+1 (#
+
+423326*
+1 (#
+
+422741*
+1 (#
+
+425049*
+10 (K
+
+425041*
+10 (K
+'
+426457*
+1@ (K2
+
+
+66
+67
+
+425049*
+10 (=
+
+425041*
+10 (=
+
+426857*
+19 (=
